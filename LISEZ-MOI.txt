@@ -110,6 +110,11 @@ l'import de recette depuis un LIEN internet) n'ont besoin de rien de plus.
 - Thème clair / sombre, au choix
 - Export d'un livre de recettes complet en PDF
 
+Un bouton "☕ Faire un don" en haut à gauche de la page d'accueil ouvre la
+page https://buymeacoffee.com/majogari dans votre navigateur, si vous
+souhaitez soutenir le développement de l'application (entièrement
+facultatif, bien sûr).
+
 Pour le détail complet de chaque fonctionnalité, consultez le document
 LISEZ-MOI.md fourni avec le code source (destiné aux utilisateurs Python),
 ou explorez simplement l'application : chaque écran est accompagné de

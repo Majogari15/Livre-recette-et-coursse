@@ -106,6 +106,10 @@ python main.py
 ## 3. Comment ça marche
 
 **🏠 Page d'accueil**
+En haut à gauche, le bouton **"☕ Faire un don"** ouvre dans votre navigateur
+la page https://buymeacoffee.com/majogari, si vous souhaitez soutenir le
+développement de l'application.
+
 En haut à droite, le bouton **"🌙 Thème sombre" / "☀️ Thème clair"** bascule
 l'apparence de toute l'application. Votre choix est mémorisé automatiquement
 d'une utilisation à l'autre. La page d'accueil et toute nouvelle fenêtre que

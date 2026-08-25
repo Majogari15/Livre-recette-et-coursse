@@ -9,6 +9,7 @@ import re
 import shutil
 import subprocess
 import sys
+import webbrowser
 import tempfile
 import unicodedata
 import urllib.error
@@ -1839,6 +1840,9 @@ class App(tk.Tk):
 
         self._build_home_ui()
 
+    def open_donate_page(self):
+        webbrowser.open("https://buymeacoffee.com/majogari")
+
     def toggle_dark_mode(self):
         """Bascule entre thème clair et sombre : met à jour la palette, les
         styles ttk (effet immédiat sur toutes les fenêtres déjà ouvertes),
@@ -1864,10 +1868,13 @@ class App(tk.Tk):
         self._build_home_ui()
 
     def _build_home_ui(self):
-        # ---- Barre supérieure fixe (hors zone de défilement) avec le
-        # bouton de bascule de thème, toujours visible en haut à droite. ----
+        # ---- Barre supérieure fixe (hors zone de défilement) : bouton de
+        # don en haut à gauche, bascule de thème en haut à droite — tous
+        # deux toujours visibles quel que soit le défilement. ----
         top_bar = tk.Frame(self, background=COLOR_BG)
         top_bar.pack(fill="x")
+        ttk.Button(top_bar, text="☕ Faire un don", style="Secondary.TButton",
+                   command=self.open_donate_page).pack(side="left", padx=10, pady=8)
         toggle_text = "☀️ Thème clair" if self.dark_mode else "🌙 Thème sombre"
         ttk.Button(top_bar, text=toggle_text, style="Secondary.TButton",
                    command=self.toggle_dark_mode).pack(side="right", padx=10, pady=8)
