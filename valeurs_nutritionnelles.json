@@ -1,0 +1,6182 @@
+{
+  "Abricot": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Abricot sec": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Agar-agar": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Agneau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Ail": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Ail confit": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Ail des ours": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Ail en poudre": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Aile de poulet": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Aïoli": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Airelle": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Algue kombu": {
+    "kcal": 45,
+    "protein_g": 5.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Algue nori": {
+    "kcal": 45,
+    "protein_g": 5.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Algue nori pour sushi": {
+    "kcal": 45,
+    "protein_g": 5.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Algue wakamé": {
+    "kcal": 45,
+    "protein_g": 5.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Amande effilée": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Amande émondée": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Amande grillée": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Amandes": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Amarante": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Amaretto": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Ananas": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Anchoïade": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Anchois": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Anchois à l'huile": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Anchois en bocal": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Andouille": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Andouillette": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Aneth": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Anguille": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Anguille fumée": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Anis étoilé": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Anis vert": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Arachide": {
+    "kcal": 570,
+    "protein_g": 25.0,
+    "carbs_g": 16,
+    "fat_g": 48.0
+  },
+  "Araignée de mer": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Armagnac": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Arôme d'amande amère": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Artichaut": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Asafoetida": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Aspartame": {
+    "kcal": 2,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Asperge blanche": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Asperge verte": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Assaisonnement pour salade": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Aubergine": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Avocat": {
+    "kcal": 160,
+    "protein_g": 2.0,
+    "carbs_g": 8,
+    "fat_g": 15.0
+  },
+  "Babeurre": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Bacon": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Baguette": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Baies de genièvre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Banane": {
+    "kcal": 90,
+    "protein_g": 1.1,
+    "carbs_g": 21,
+    "fat_g": 0.3
+  },
+  "Banane plantain": {
+    "kcal": 90,
+    "protein_g": 1.1,
+    "carbs_g": 21,
+    "fat_g": 0.3
+  },
+  "Banane séchée": {
+    "kcal": 90,
+    "protein_g": 1.1,
+    "carbs_g": 21,
+    "fat_g": 0.3
+  },
+  "Bar": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Basilic": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Basilic séché": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Basilic thaï": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Batavia": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Bâtonnet de poisson": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Bâtonnet de surimi": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Baudroie": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Bavette": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Beaufort": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Bergamote": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Bette à carde": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Betterave": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Beurre": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre clarifié": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre de cacahuète": {
+    "kcal": 570,
+    "protein_g": 25.0,
+    "carbs_g": 16,
+    "fat_g": 48.0
+  },
+  "Beurre de karité alimentaire": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre demi-sel": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre doux": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre fondu": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre noisette": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Beurre salé": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Bicarbonate de soude": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Bière blonde": {
+    "kcal": 43,
+    "protein_g": 0.5,
+    "carbs_g": 3.5,
+    "fat_g": 0
+  },
+  "Bière brune": {
+    "kcal": 43,
+    "protein_g": 0.5,
+    "carbs_g": 3.5,
+    "fat_g": 0
+  },
+  "Bigorneau": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Biscotte": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Biscuit apéritif": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Biscuit cuillère": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Biscuit sablé": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Blanc d'oeuf": {
+    "kcal": 145,
+    "protein_g": 12.5,
+    "carbs_g": 1,
+    "fat_g": 10.0
+  },
+  "Blanc de poulet": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Blanquette de veau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Blette": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Bleu d'Auvergne": {
+    "kcal": 350,
+    "protein_g": 20.0,
+    "carbs_g": 2,
+    "fat_g": 30.0
+  },
+  "Bleu de Bresse": {
+    "kcal": 350,
+    "protein_g": 20.0,
+    "carbs_g": 2,
+    "fat_g": 30.0
+  },
+  "Boeuf haché": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Boudin blanc": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Boudin noir": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Boudoir": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Bouillon": {
+    "kcal": 10,
+    "protein_g": 1.0,
+    "carbs_g": 1,
+    "fat_g": 0.2
+  },
+  "Bouillon de boeuf": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Bouillon de légumes": {
+    "kcal": 10,
+    "protein_g": 1.0,
+    "carbs_g": 1,
+    "fat_g": 0.2
+  },
+  "Bouillon de légumes déshydraté": {
+    "kcal": 10,
+    "protein_g": 1.0,
+    "carbs_g": 1,
+    "fat_g": 0.2
+  },
+  "Bouillon de poulet": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Boulgour": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Boulgour fin": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Boulgour gros": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Bouquet garni": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Bourbon": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Brie": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Brochet": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Brocolis": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Bûche de chèvre": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Bulot": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Burrata": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Cabillaud": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Cacahuète": {
+    "kcal": 570,
+    "protein_g": 25.0,
+    "carbs_g": 16,
+    "fat_g": 48.0
+  },
+  "Cacahuète grillée salée": {
+    "kcal": 570,
+    "protein_g": 25.0,
+    "carbs_g": 16,
+    "fat_g": 48.0
+  },
+  "Cacao en poudre": {
+    "kcal": 535,
+    "protein_g": 7.0,
+    "carbs_g": 57,
+    "fat_g": 30.0
+  },
+  "Cacao non sucré": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Café": {
+    "kcal": 1,
+    "protein_g": 0.1,
+    "carbs_g": 0.2,
+    "fat_g": 0
+  },
+  "Café expresso": {
+    "kcal": 1,
+    "protein_g": 0.1,
+    "carbs_g": 0.2,
+    "fat_g": 0
+  },
+  "Caille": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Calamar": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Calvados": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Camembert": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Canard": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Cannelle": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Cannelle en bâton": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Cannelle en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Cantal": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Câpres": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Câpres en bocal": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Carambole": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Caramel": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Caramel au beurre salé": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Cardamome noire": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Cardamome verte": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Cardon": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Carotte": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Carotte nouvelle": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Carpaccio de boeuf": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Carpe": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Cassis": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Cassonade": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Caviar": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Céleri branche": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Céleri rave": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Cèpe": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Cerfeuil": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Cerise": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Cerise blanche": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Cerise confite": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Cerise noire": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Chair de crabe": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Champagne": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Champignon": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Champignon de Paris": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Champignon shiitaké": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Champignons en boîte": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Chapelure": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Châtaigne": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Chayotte": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Cheddar": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Cheval": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Chèvre frais": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Chevreuil": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Chicorée": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Chili en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Chipolata": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Chips de maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Chocolat": {
+    "kcal": 535,
+    "protein_g": 7.0,
+    "carbs_g": 57,
+    "fat_g": 30.0
+  },
+  "Chocolat au lait": {
+    "kcal": 535,
+    "protein_g": 7.0,
+    "carbs_g": 57,
+    "fat_g": 30.0
+  },
+  "Chocolat blanc": {
+    "kcal": 535,
+    "protein_g": 7.0,
+    "carbs_g": 57,
+    "fat_g": 30.0
+  },
+  "Chocolat noir": {
+    "kcal": 550,
+    "protein_g": 6.0,
+    "carbs_g": 45,
+    "fat_g": 35.0
+  },
+  "Chorizo": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Chou blanc": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou chinois": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou de Bruxelles": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou de Milan": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou frisé": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou kale": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou pak-choï": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou romanesco": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou rouge": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou vert": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Chou-fleur": {
+    "kcal": 30,
+    "protein_g": 2.5,
+    "carbs_g": 5,
+    "fat_g": 0.3
+  },
+  "Choucroute": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Chutney de mangue": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Ciboulette": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Cidre brut": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Cinq-épices": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Citron": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Citron confit": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Citron jaune": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Citron vert": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Citronnelle": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Citrouille": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Clémentine": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Clotted cream": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Clou de girofle": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Coeurs d'artichaut": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Coeurs de palmier": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Cognac": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Coing": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Cointreau": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Colin": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Colombo en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Colorant alimentaire": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Combava": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Compote de pomme": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Comté": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Concentré de tomate": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Concombre": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Confit d'échalote": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Confit d'oignon": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Confit de canard": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Confiture d'abricot": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Confiture de fraise": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Congre": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Coq": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Coque": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Coquille Saint-Jacques": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Cordon bleu": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Coriandre en grains": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Coriandre en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Coriandre fraîche": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Cornichon": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Cornichons au vinaigre": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Cornichons en bocal": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Corossol": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Côte de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Côte de veau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Côtelette d'agneau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Cottage cheese": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Coulis de tomate": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Coulommiers": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Courge butternut": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Courge musquée": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Courge spaghetti": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Courgette": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Couscous": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Couteau": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Crabe": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Cracker": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Cranberry": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Cranberry séchée": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Crème": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème anglaise": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème de balsamique": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Crème de coco": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème de marron": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Crème de tartre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Crème double": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème fleurette": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème fouettée": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème fraîche épaisse": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème fraîche liquide": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème liquide entière": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème liquide légère": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Crème pâtissière": {
+    "kcal": 300,
+    "protein_g": 2.5,
+    "carbs_g": 3,
+    "fat_g": 30.0
+  },
+  "Cresson": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Crevette": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Crevette rose": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Crosne": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Crottin de chèvre": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Croûton à l'ail": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Croûtons": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Cube de bouillon": {
+    "kcal": 10,
+    "protein_g": 1.0,
+    "carbs_g": 1,
+    "fat_g": 0.2
+  },
+  "Cuisse de canard confite": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Cuisse de dinde": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Cuisse de poulet": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Cuisses de grenouille": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Cumin en grains": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Cumin en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Curcuma": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Curcuma en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Curcuma frais": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Curry en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Curry madras": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Darne de saumon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Datte": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Datte medjool": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Daurade royale": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Décor en sucre": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Dinde": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Dinde hachée": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Dorade": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Eau": {
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Eau de coco": {
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Eau de fleur d'oranger": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Eau de rose": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Eau de vie": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Eau gazeuse": {
+    "kcal": 45,
+    "protein_g": 0.3,
+    "carbs_g": 10,
+    "fat_g": 0
+  },
+  "Échalote": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Échine de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Écorce d'orange": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Édam": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Edamame": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Édulcorant": {
+    "kcal": 2,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Emmental": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Emmental râpé": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Encornet": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Endive": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Endive rouge": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Entrecôte": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Épaule d'agneau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Épeautre": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Épices à colombo": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Épices à couscous": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Épices à pain d'épices": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Épices barbecue": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Épices cajun": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Épices tandoori": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Épinard baby": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Épinards": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Époisses": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Escalope de dinde": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Escalope de poulet panée": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Escalope de veau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Escargot": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Espadon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Estragon": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Étrille": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Extrait de café": {
+    "kcal": 1,
+    "protein_g": 0.1,
+    "carbs_g": 0.2,
+    "fat_g": 0
+  },
+  "Extrait de vanille": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Faisselle": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Farine": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine d'amande": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Farine de blé complète": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de blé T45": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de blé T55": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de blé T65": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de châtaigne": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Farine de coco": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de lupin": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Farine de millet": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Farine de pois chiche": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Farine de quinoa": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Farine de riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine de sarrasin": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Farine de seigle": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine sans gluten": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Farine tout usage": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Faux-filet": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Fécule de maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Fécule de pomme de terre": {
+    "kcal": 77,
+    "protein_g": 2.0,
+    "carbs_g": 17,
+    "fat_g": 0.1
+  },
+  "Fenouil": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Feta": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Feuille de combava": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Feuille de curry": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Feuilles de bananier": {
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Feuilles de riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Feuilles de vigne": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Fève": {
+    "kcal": 70,
+    "protein_g": 5.0,
+    "carbs_g": 12,
+    "fat_g": 0.5
+  },
+  "Fève tonka": {
+    "kcal": 70,
+    "protein_g": 5.0,
+    "carbs_g": 12,
+    "fat_g": 0.5
+  },
+  "Figue": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Figue sèche": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Filet de boeuf": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Filet de cabillaud": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Filet de saumon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Filet mignon de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Flétan": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Fleur de courgette": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Fleur de sel": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Flocons d'avoine": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Foie de veau": {
+    "kcal": 150,
+    "protein_g": 20.0,
+    "carbs_g": 3,
+    "fat_g": 6.0
+  },
+  "Foie gras": {
+    "kcal": 460,
+    "protein_g": 8.0,
+    "carbs_g": 4,
+    "fat_g": 45.0
+  },
+  "Fond brun": {
+    "kcal": 10,
+    "protein_g": 1.0,
+    "carbs_g": 1,
+    "fat_g": 0.2
+  },
+  "Fond de veau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Fond de volaille": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Fondant pâtissier": {
+    "kcal": 400,
+    "protein_g": 7.0,
+    "carbs_g": 45,
+    "fat_g": 20.0
+  },
+  "Fonio": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Fourme d'Ambert": {
+    "kcal": 350,
+    "protein_g": 20.0,
+    "carbs_g": 2,
+    "fat_g": 30.0
+  },
+  "Fraise": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Fraise des bois": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Framboise": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Freekeh": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Frisée": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Fromage": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Fromage à fondue": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Fromage à raclette": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Fromage blanc": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Fromage de brebis": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Fromage fondu": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Fromage frais aux herbes": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Fromage râpé": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Fruit de la passion": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Fruit du dragon": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Fruits confits": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Fumet de poisson": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Fusilli": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Galanga": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Galette de riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Gambas": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Garam masala": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Gélatine": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Gelée de groseille": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Gelée royale": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Génoise": {
+    "kcal": 400,
+    "protein_g": 7.0,
+    "carbs_g": 45,
+    "fat_g": 20.0
+  },
+  "Germe de blé": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Germe de haricot": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Germe de soja": {
+    "kcal": 90,
+    "protein_g": 10.0,
+    "carbs_g": 2,
+    "fat_g": 5.0
+  },
+  "Ghee": {
+    "kcal": 890,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 99.0
+  },
+  "Gibier": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Gigot d'agneau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Gin": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Gingembre": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Gingembre en poudre": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Gingembre frais": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Gingembre mariné": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Girolle": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Glaçage royal": {
+    "kcal": 400,
+    "protein_g": 7.0,
+    "carbs_g": 45,
+    "fat_g": 20.0
+  },
+  "Glucose": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Gombo": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Gorgonzola": {
+    "kcal": 350,
+    "protein_g": 20.0,
+    "carbs_g": 2,
+    "fat_g": 30.0
+  },
+  "Gouda": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Gousse de vanille": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Goyave": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Graines de chia": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Graines de courge": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Graines de fenouil": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Graines de lin": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Graines de moutarde": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Graines de pavot": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Graines de tournesol": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Graines germées": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Graisse d'oie": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Graisse de canard": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Grana Padano": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Grand Marnier": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Grenade": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Grenouille": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Griotte": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Gros sel": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Groseille": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Groseille à maquereau": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Gruyère": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Guacamole": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Halloumi": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Hareng": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Hareng fumé": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Haricot beurre": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Haricot blanc": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Haricot noir": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Haricot rouge": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Haricot vert": {
+    "kcal": 70,
+    "protein_g": 5.0,
+    "carbs_g": 12,
+    "fat_g": 0.5
+  },
+  "Haricots en boîte": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Herbes de Provence": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Homard": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Houmous": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Huile": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile d'arachide": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile d'avocat": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile d'olive": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile d'olive extra vierge": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de cameline": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de coco": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de colza": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de friture": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de lin": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de maïs": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de noisette": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de noix": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de palme": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de pépin de courge": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de pépins de raisin": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de sésame": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de soja": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de tournesol": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile de truffe": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile neutre": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile pimentée": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huile végétale": {
+    "kcal": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100.0
+  },
+  "Huître": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Huître creuse": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Huître plate": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Hysope": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Igname": {
+    "kcal": 80,
+    "protein_g": 2.0,
+    "carbs_g": 18,
+    "fat_g": 0.1
+  },
+  "Jambon blanc": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Jambon cru": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Jambon de Parme": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Jambon serrano": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Jaque": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Jarret de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Jaune d'oeuf": {
+    "kcal": 145,
+    "protein_g": 12.5,
+    "carbs_g": 1,
+    "fat_g": 10.0
+  },
+  "Joue de boeuf": {
+    "kcal": 150,
+    "protein_g": 20.0,
+    "carbs_g": 3,
+    "fat_g": 6.0
+  },
+  "Jus d'orange": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Jus de canneberge": {
+    "kcal": 45,
+    "protein_g": 0.3,
+    "carbs_g": 10,
+    "fat_g": 0
+  },
+  "Jus de citron": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Jus de pomme": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Jus de raisin": {
+    "kcal": 65,
+    "protein_g": 0.6,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Jus de tomate": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Jus de viande": {
+    "kcal": 45,
+    "protein_g": 0.3,
+    "carbs_g": 10,
+    "fat_g": 0
+  },
+  "Kaki": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Kamut": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Kéfir": {
+    "kcal": 60,
+    "protein_g": 4.0,
+    "carbs_g": 5,
+    "fat_g": 3.0
+  },
+  "Kefta": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Ketchup": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Kimchi": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Kirsch": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Kiwi": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Kumquat": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Lait": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait concentré non sucré": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait concentré sucré": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait d'amande": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait d'avoine": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait de coco": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait de coco en boîte": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait de riz": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait de soja": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait demi-écrémé": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait écrémé": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait en poudre": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait entier": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Lait ribot": {
+    "kcal": 50,
+    "protein_g": 3.3,
+    "carbs_g": 5,
+    "fat_g": 1.5
+  },
+  "Laitue": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Laitue iceberg": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Langouste": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Langoustine": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Langue de boeuf": {
+    "kcal": 150,
+    "protein_g": 20.0,
+    "carbs_g": 3,
+    "fat_g": 6.0
+  },
+  "Lapin": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Lard": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Lardons": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Lasagne": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Laurier": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Laurier séché": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Lentille blonde": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Lentille corail": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Lentille verte": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Lentilles en boîte": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Levure": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Levure boulangère": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Levure chimique": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Levure chimique sans gluten": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Levure de bière": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Levure maltée": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Lieu jaune": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Lieu noir": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Litchi": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Livarot": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Livèche": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Longane": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Lotte": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Loup de mer": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Macaroni": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Mâche": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Madère": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Magret de canard": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Maïs doux": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Maïs en boîte": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Maïzena": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Mandarine": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Mangoustan": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Mangue": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Mangue séchée": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Manioc": {
+    "kcal": 80,
+    "protein_g": 2.0,
+    "carbs_g": 18,
+    "fat_g": 0.1
+  },
+  "Maquereau": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Margarine": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Margarine végétale": {
+    "kcal": 717,
+    "protein_g": 0.9,
+    "carbs_g": 0.1,
+    "fat_g": 81.0
+  },
+  "Marjolaine": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Marmelade d'orange": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Maroilles": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Marron glacé": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Marsala": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Mascarpone": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Mayonnaise": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Mélange cinq épices": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Mélange de fruits secs": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Mélange quatre épices": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Mélasse": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Mélisse": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Melon": {
+    "kcal": 35,
+    "protein_g": 0.7,
+    "carbs_g": 8,
+    "fat_g": 0.2
+  },
+  "Menthe": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Menthe poivrée": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Merguez": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Merguez d'agneau": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Meringue": {
+    "kcal": 400,
+    "protein_g": 7.0,
+    "carbs_g": 45,
+    "fat_g": 20.0
+  },
+  "Merlu": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Micro-pousse": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Miel": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Millet": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Mirabelle": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Miso blanc": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Miso rouge": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Morbier": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Morue": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Moule": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Moule de bouchot": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Moutarde": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Moutarde à l'ancienne": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Moutarde de Dijon": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Moutarde douce": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Moutarde en pot": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Moutarde en poudre": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Mouton": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Mozzarella": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Mozzarella di bufala": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Munster": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Mûre": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Myrtille": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Myrtille sauvage": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Nachos": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Nappage neutre": {
+    "kcal": 400,
+    "protein_g": 7.0,
+    "carbs_g": 45,
+    "fat_g": 20.0
+  },
+  "Nashi": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Navet": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Navet nouveau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Nectarine": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Nèfle": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Nigelle": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Noisette": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noisette grillée": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de cajou": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de cajou grillée": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de coco": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de coco râpée": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de macadamia": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de muscade": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de pécan": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix de Saint-Jacques": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Noix du Brésil": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Nougat": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Nougatine": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Nouilles chinoises": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Nouilles de riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Nouilles soba": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Nouilles udon": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Nugget de poulet": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Oeuf de caille": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Oeuf de cane": {
+    "kcal": 145,
+    "protein_g": 12.5,
+    "carbs_g": 1,
+    "fat_g": 10.0
+  },
+  "Oeufs": {
+    "kcal": 145,
+    "protein_g": 12.5,
+    "carbs_g": 1,
+    "fat_g": 10.0
+  },
+  "Oeufs de lump": {
+    "kcal": 145,
+    "protein_g": 12.5,
+    "carbs_g": 1,
+    "fat_g": 10.0
+  },
+  "Oeufs de poisson": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Oeufs de saumon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Oie": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Oignon": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Oignon blanc": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Oignon confit": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Oignon en poudre": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Oignon jaune": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Oignon rouge": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Olive farcie": {
+    "kcal": 145,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 15.0
+  },
+  "Olives en bocal": {
+    "kcal": 145,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 15.0
+  },
+  "Olives kalamata": {
+    "kcal": 145,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 15.0
+  },
+  "Olives noires": {
+    "kcal": 145,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 15.0
+  },
+  "Olives vertes": {
+    "kcal": 145,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 15.0
+  },
+  "Onglet": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Orange": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Orange confite": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Orge perlé": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Origan": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Origan séché": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Ormeau": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Oseille": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Oursin": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Pain": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Pain complet": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Pain de mie": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Pain de seigle": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Paleron": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Palourde": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Pamplemousse": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Panais": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Pancetta": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Panga": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Papaye": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Papier de riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Paprika doux": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Paprika fumé": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Parmesan": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Pastèque": {
+    "kcal": 35,
+    "protein_g": 0.7,
+    "carbs_g": 8,
+    "fat_g": 0.2
+  },
+  "Patate douce": {
+    "kcal": 77,
+    "protein_g": 2.0,
+    "carbs_g": 17,
+    "fat_g": 0.1
+  },
+  "Pâte à choux": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte à crêpes": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte à gaufres": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte à pizza": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte à tartiner": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte brisée": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte d'amande": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Pâte de curry jaune": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Pâte de curry rouge": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Pâte de curry vert": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Pâte de tamarin": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Pâte feuilletée": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte filo": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte miso": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Pâte sablée": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâte wonton": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pâtes": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pavé de saumon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Pêche": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Pecorino": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Pectine": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Penne": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Pépites de chocolat": {
+    "kcal": 535,
+    "protein_g": 7.0,
+    "carbs_g": 57,
+    "fat_g": 30.0
+  },
+  "Perche": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Perles de sucre": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Persil": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Persil frisé": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Persil plat": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Persil racine": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Pesto basilic": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Pesto en pot": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Petit épeautre": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Petit pois cassé": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Petit-lait": {
+    "kcal": 60,
+    "protein_g": 4.0,
+    "carbs_g": 5,
+    "fat_g": 3.0
+  },
+  "Petit-suisse": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Petits pois": {
+    "kcal": 70,
+    "protein_g": 5.0,
+    "carbs_g": 12,
+    "fat_g": 0.5
+  },
+  "Pétoncle": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Physalis": {
+    "kcal": 45,
+    "protein_g": 0.8,
+    "carbs_g": 9,
+    "fat_g": 0.4
+  },
+  "Pickles": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Pieuvre": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Pigeon": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Pignon de pin": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Piment": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment banane": {
+    "kcal": 90,
+    "protein_g": 1.1,
+    "carbs_g": 21,
+    "fat_g": 0.3
+  },
+  "Piment chipotle": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment d'Espelette": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Piment de Cayenne": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Piment de la Jamaïque": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment doux": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment fort": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment habanero": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment jalapeño": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment oiseau": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment poblano": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment séché": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Piment serrano": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Pintade": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Pissenlit": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Pistache": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Pleurote": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Poire": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Poire williams": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Poireau": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Poireau primeur": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Pois chiche": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Pois chiches en boîte": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Poisson blanc": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Poisson pané": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Poisson-chat": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Poitrine de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Poivre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre blanc": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre blanc moulu": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre de Sichuan": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre en grains": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre long": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre noir": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre noir moulu": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre rose": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivre vert": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poivron": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Poivron jaune": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Poivron rouge": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Poivron vert": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Poivrons grillés en bocal": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Polenta": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Pollen": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Pomelo": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Pomme": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Pomme de terre": {
+    "kcal": 77,
+    "protein_g": 2.0,
+    "carbs_g": 17,
+    "fat_g": 0.1
+  },
+  "Pomme golden": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Pomme granny smith": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Pomme reinette": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Pont-l'Évêque": {
+    "kcal": 300,
+    "protein_g": 20.0,
+    "carbs_g": 1,
+    "fat_g": 24.0
+  },
+  "Pop-corn": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Porto": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Potiron": {
+    "kcal": 30,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.1
+  },
+  "Poudre à flan": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Poudre à lever": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poudre d'amande": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Poudre de chili": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poudre de cinq-épices chinoises": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poudre de curry doux": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poudre de curry fort": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poudre de curry jaune": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Poudre de noisette": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Poulet": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Poulet entier": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Poulet fermier": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Poulet haché": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Poulpe": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Pousse d'épinard": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Pousse de bambou": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Pousse de tournesol": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Praire": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Praliné": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Propolis": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Protéine de soja texturée": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Provolone": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Prune": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Pruneau": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Prunelle": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Pulpe de tomate": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Purée de fruit": {
+    "kcal": 55,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2
+  },
+  "Purée de marron": {
+    "kcal": 600,
+    "protein_g": 18.0,
+    "carbs_g": 15,
+    "fat_g": 52.0
+  },
+  "Purée de tomate": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Quatre épices": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Queue de boeuf": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Quinoa": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Râble de lapin": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Radicchio": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Radis": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Radis noir": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Raie": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Raifort": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Raisin": {
+    "kcal": 65,
+    "protein_g": 0.6,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Raisin blanc": {
+    "kcal": 65,
+    "protein_g": 0.6,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Raisin noir": {
+    "kcal": 65,
+    "protein_g": 0.6,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Raisins secs": {
+    "kcal": 65,
+    "protein_g": 0.6,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Ramboutan": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Ras el hanout": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Reblochon": {
+    "kcal": 380,
+    "protein_g": 27.0,
+    "carbs_g": 1,
+    "fat_g": 30.0
+  },
+  "Réduction balsamique": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Réglisse": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Reine-claude": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Rhubarbe": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Rhum ambré": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Rhum blanc": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Ricotta": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Ris de veau": {
+    "kcal": 150,
+    "protein_g": 20.0,
+    "carbs_g": 3,
+    "fat_g": 6.0
+  },
+  "Riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz arborio": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz au lait": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz basmati": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz complet": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Riz gluant": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz noir": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Riz pour sushi": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz rond": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Riz rouge": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Riz sauvage": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Riz thaï": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Rognon de veau": {
+    "kcal": 150,
+    "protein_g": 20.0,
+    "carbs_g": 3,
+    "fat_g": 6.0
+  },
+  "Romarin": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Roquefort": {
+    "kcal": 350,
+    "protein_g": 20.0,
+    "carbs_g": 2,
+    "fat_g": 30.0
+  },
+  "Roquette": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Roquette sauvage": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Rôti de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Rouget": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Rouget barbet": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Rumsteck": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Rutabaga": {
+    "kcal": 35,
+    "protein_g": 1.0,
+    "carbs_g": 7,
+    "fat_g": 0.2
+  },
+  "Safran": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Safran en filaments": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Saindoux": {
+    "kcal": 890,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 99.0
+  },
+  "Saint-pierre": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Salade verte": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Salsifis": {
+    "kcal": 80,
+    "protein_g": 2.0,
+    "carbs_g": 18,
+    "fat_g": 0.1
+  },
+  "Sandre": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Sanglier": {
+    "kcal": 150,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 6.0
+  },
+  "Sardine": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Sardines en boîte": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Sarrasin": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Sarriette": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Sauce barbecue": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Sauce béchamel": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Sauce chimichurri": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce cocktail": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce curry": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce hoisin": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce hollandaise": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Sauce huître": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Sauce mille-îles": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce nuoc-mâm": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce piquante": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce piquante en bouteille": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce ponzu": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce ranch": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce salsa": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce satay": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce soja": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce soja foncée": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce soja légère": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce soja sucrée": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sauce soja tamari": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce tabasco": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce tartare": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Sauce teriyaki": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce tomate": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce tomate en bocal": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce vinaigrette": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Sauce worcestershire": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Sauce worcestershire végétarienne": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Saucisse": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Saucisse de Toulouse": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Saucisson à l'ail": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Saucisson sec": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Sauge": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Saumon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Saumon fumé": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Scarole": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Seiche": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Seitan": {
+    "kcal": 90,
+    "protein_g": 10.0,
+    "carbs_g": 2,
+    "fat_g": 5.0
+  },
+  "Sel": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel à l'ail": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel aux herbes": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel de céleri": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel de mer": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel de mer fumé": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel fin": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sel fumé": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Semoule de blé": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Semoule de maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Semoule fine": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Semoule moyenne": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Sésame blanc": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Sésame noir": {
+    "kcal": 550,
+    "protein_g": 20.0,
+    "carbs_g": 18,
+    "fat_g": 45.0
+  },
+  "Sirop d'agave": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Sirop d'érable": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Sirop de fruits": {
+    "kcal": 45,
+    "protein_g": 0.3,
+    "carbs_g": 10,
+    "fat_g": 0
+  },
+  "Sirop de glucose": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Sirop de grenadine": {
+    "kcal": 45,
+    "protein_g": 0.3,
+    "carbs_g": 10,
+    "fat_g": 0
+  },
+  "Sirop de maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Sirop de menthe": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Sirop de sucre de canne": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Skyr": {
+    "kcal": 100,
+    "protein_g": 9.0,
+    "carbs_g": 4,
+    "fat_g": 5.0
+  },
+  "Soja": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Sole": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Son d'avoine": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Son de blé": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Sorgho": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 65,
+    "fat_g": 5.0
+  },
+  "Souris d'agneau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Spaghetti": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Spéculoos": {
+    "kcal": 450,
+    "protein_g": 7.0,
+    "carbs_g": 65,
+    "fat_g": 18.0
+  },
+  "Spiruline": {
+    "kcal": 45,
+    "protein_g": 5.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Steak de boeuf": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Steak haché": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Stévia": {
+    "kcal": 2,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Sucre": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre blanc": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre candi": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre complet": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre de canne": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre en poudre": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre glace": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre inverti": {
+    "kcal": 310,
+    "protein_g": 0.3,
+    "carbs_g": 76,
+    "fat_g": 0
+  },
+  "Sucre muscovado": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre perlé": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre roux": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Sucre semoule": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Sucre vanillé": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Suif": {
+    "kcal": 890,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 99.0
+  },
+  "Sumac": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Sureau": {
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Surimi": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Tagliatelles": {
+    "kcal": 350,
+    "protein_g": 12.0,
+    "carbs_g": 72,
+    "fat_g": 1.5
+  },
+  "Tahini": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Tamarin": {
+    "kcal": 65,
+    "protein_g": 0.9,
+    "carbs_g": 16,
+    "fat_g": 0.3
+  },
+  "Tapenade": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Tapenade en pot": {
+    "kcal": 300,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 30.0
+  },
+  "Tapioca": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Tarama": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Tartare de boeuf": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Tempeh": {
+    "kcal": 90,
+    "protein_g": 10.0,
+    "carbs_g": 2,
+    "fat_g": 5.0
+  },
+  "Thé noir": {
+    "kcal": 1,
+    "protein_g": 0.1,
+    "carbs_g": 0.2,
+    "fat_g": 0
+  },
+  "Thé vert": {
+    "kcal": 1,
+    "protein_g": 0.1,
+    "carbs_g": 0.2,
+    "fat_g": 0
+  },
+  "Thon": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Thon blanc": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Thon en boîte": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Thon rouge": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Thym": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Thym citron": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Thym séché": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Tilapia": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Tofu": {
+    "kcal": 90,
+    "protein_g": 10.0,
+    "carbs_g": 2,
+    "fat_g": 5.0
+  },
+  "Tofu fumé": {
+    "kcal": 90,
+    "protein_g": 10.0,
+    "carbs_g": 2,
+    "fat_g": 5.0
+  },
+  "Tofu soyeux": {
+    "kcal": 90,
+    "protein_g": 10.0,
+    "carbs_g": 2,
+    "fat_g": 5.0
+  },
+  "Tomate": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Tomate cerise": {
+    "kcal": 48,
+    "protein_g": 0.8,
+    "carbs_g": 11,
+    "fat_g": 0.2
+  },
+  "Tomate en grappe": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Tomate séchée": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Tomates pelées en boîte": {
+    "kcal": 20,
+    "protein_g": 1.0,
+    "carbs_g": 4,
+    "fat_g": 0.2
+  },
+  "Tomme de Savoie": {
+    "kcal": 165,
+    "protein_g": 22.0,
+    "carbs_g": 0,
+    "fat_g": 8.0
+  },
+  "Topinambour": {
+    "kcal": 80,
+    "protein_g": 2.0,
+    "carbs_g": 18,
+    "fat_g": 0.1
+  },
+  "Tortilla de blé": {
+    "kcal": 265,
+    "protein_g": 9.0,
+    "carbs_g": 49,
+    "fat_g": 3.0
+  },
+  "Tortilla de maïs": {
+    "kcal": 86,
+    "protein_g": 3.2,
+    "carbs_g": 19,
+    "fat_g": 1.2
+  },
+  "Tourteau": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Trail mix": {
+    "kcal": 40,
+    "protein_g": 1.5,
+    "carbs_g": 8,
+    "fat_g": 0.1
+  },
+  "Travers de porc": {
+    "kcal": 240,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 18.0
+  },
+  "Trévise": {
+    "kcal": 20,
+    "protein_g": 2.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Triple sec": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Truffe blanche": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Truffe noire": {
+    "kcal": 25,
+    "protein_g": 3.0,
+    "carbs_g": 3,
+    "fat_g": 0.3
+  },
+  "Truite": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Truite fumée": {
+    "kcal": 200,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 13.0
+  },
+  "Turbot": {
+    "kcal": 90,
+    "protein_g": 19.0,
+    "carbs_g": 0,
+    "fat_g": 1.0
+  },
+  "Vanille": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Vanille en poudre": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Veau": {
+    "kcal": 220,
+    "protein_g": 20.0,
+    "carbs_g": 0,
+    "fat_g": 15.0
+  },
+  "Vergeoise": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Vermicelle de riz": {
+    "kcal": 355,
+    "protein_g": 8.0,
+    "carbs_g": 78,
+    "fat_g": 1.0
+  },
+  "Vermicelle de soja": {
+    "kcal": 340,
+    "protein_g": 22.0,
+    "carbs_g": 60,
+    "fat_g": 2.0
+  },
+  "Vermicelles en sucre": {
+    "kcal": 400,
+    "protein_g": 0,
+    "carbs_g": 100,
+    "fat_g": 0
+  },
+  "Vermouth": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vernis": {
+    "kcal": 95,
+    "protein_g": 18.0,
+    "carbs_g": 2,
+    "fat_g": 1.5
+  },
+  "Verveine": {
+    "kcal": 35,
+    "protein_g": 3.0,
+    "carbs_g": 5,
+    "fat_g": 0.6
+  },
+  "Viande hachée mélangée": {
+    "kcal": 300,
+    "protein_g": 18.0,
+    "carbs_g": 1,
+    "fat_g": 25.0
+  },
+  "Vin": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vin blanc": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vin de cuisine": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vin de Xérès": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vin jaune": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vin rosé": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vin rouge": {
+    "kcal": 85,
+    "protein_g": 0.1,
+    "carbs_g": 2.5,
+    "fat_g": 0
+  },
+  "Vinaigre": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre balsamique": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre balsamique blanc": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre blanc": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de cidre": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de framboise": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de riz": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de riz assaisonné": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de vin blanc": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de vin rouge": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre de xérès": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigre pour sushi": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vinaigrette balsamique": {
+    "kcal": 20,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+  },
+  "Vodka": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Wasabi": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Wasabi en pâte": {
+    "kcal": 120,
+    "protein_g": 2.0,
+    "carbs_g": 12,
+    "fat_g": 7.0
+  },
+  "Whisky": {
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+  },
+  "Yaourt": {
+    "kcal": 60,
+    "protein_g": 4.0,
+    "carbs_g": 5,
+    "fat_g": 3.0
+  },
+  "Yaourt à la grecque": {
+    "kcal": 60,
+    "protein_g": 4.0,
+    "carbs_g": 5,
+    "fat_g": 3.0
+  },
+  "Yaourt grec": {
+    "kcal": 60,
+    "protein_g": 4.0,
+    "carbs_g": 5,
+    "fat_g": 3.0
+  },
+  "Yaourt nature": {
+    "kcal": 60,
+    "protein_g": 4.0,
+    "carbs_g": 5,
+    "fat_g": 3.0
+  },
+  "Yuzu": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Za'atar": {
+    "kcal": 300,
+    "protein_g": 12.0,
+    "carbs_g": 50,
+    "fat_g": 8.0
+  },
+  "Zeste confit": {
+    "kcal": 280,
+    "protein_g": 3.0,
+    "carbs_g": 65,
+    "fat_g": 0.5
+  },
+  "Zeste d'orange": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  },
+  "Zeste de citron": {
+    "kcal": 42,
+    "protein_g": 0.8,
+    "carbs_g": 10,
+    "fat_g": 0.2
+  }
+}

@@ -1,0 +1,1707 @@
+{
+  "Abricot": [],
+  "Abricot sec": [
+    "Sulfites"
+  ],
+  "Agar-agar": [],
+  "Agneau": [],
+  "Ail": [],
+  "Ail confit": [],
+  "Ail des ours": [],
+  "Ail en poudre": [],
+  "Aile de poulet": [],
+  "Aïoli": [
+    "Œufs"
+  ],
+  "Airelle": [],
+  "Algue kombu": [],
+  "Algue nori": [],
+  "Algue nori pour sushi": [],
+  "Algue wakamé": [],
+  "Amande effilée": [
+    "Fruits à coque"
+  ],
+  "Amande émondée": [
+    "Fruits à coque"
+  ],
+  "Amande grillée": [
+    "Fruits à coque"
+  ],
+  "Amandes": [
+    "Fruits à coque"
+  ],
+  "Amarante": [],
+  "Amaretto": [],
+  "Ananas": [],
+  "Anchoïade": [],
+  "Anchois": [
+    "Poisson"
+  ],
+  "Anchois à l'huile": [
+    "Poisson"
+  ],
+  "Anchois en bocal": [
+    "Poisson"
+  ],
+  "Andouille": [],
+  "Andouillette": [],
+  "Aneth": [],
+  "Anguille": [
+    "Poisson"
+  ],
+  "Anguille fumée": [
+    "Poisson"
+  ],
+  "Anis étoilé": [],
+  "Anis vert": [],
+  "Arachide": [
+    "Arachides"
+  ],
+  "Araignée de mer": [
+    "Crustacés"
+  ],
+  "Armagnac": [],
+  "Arôme d'amande amère": [
+    "Fruits à coque"
+  ],
+  "Artichaut": [],
+  "Asafoetida": [],
+  "Aspartame": [],
+  "Asperge blanche": [],
+  "Asperge verte": [],
+  "Assaisonnement pour salade": [],
+  "Aubergine": [],
+  "Avocat": [],
+  "Babeurre": [
+    "Lactose"
+  ],
+  "Bacon": [],
+  "Baguette": [
+    "Gluten"
+  ],
+  "Baies de genièvre": [],
+  "Banane": [],
+  "Banane plantain": [],
+  "Banane séchée": [],
+  "Bar": [
+    "Poisson"
+  ],
+  "Basilic": [],
+  "Basilic séché": [],
+  "Basilic thaï": [],
+  "Batavia": [],
+  "Bâtonnet de poisson": [
+    "Poisson"
+  ],
+  "Bâtonnet de surimi": [
+    "Gluten",
+    "Poisson"
+  ],
+  "Baudroie": [
+    "Poisson"
+  ],
+  "Bavette": [],
+  "Beaufort": [
+    "Lactose"
+  ],
+  "Bergamote": [],
+  "Bette à carde": [],
+  "Betterave": [],
+  "Beurre": [],
+  "Beurre clarifié": [
+    "Lactose"
+  ],
+  "Beurre de cacahuète": [
+    "Arachides"
+  ],
+  "Beurre de karité alimentaire": [],
+  "Beurre demi-sel": [
+    "Lactose"
+  ],
+  "Beurre doux": [
+    "Lactose"
+  ],
+  "Beurre fondu": [
+    "Lactose"
+  ],
+  "Beurre noisette": [
+    "Fruits à coque"
+  ],
+  "Beurre salé": [
+    "Lactose"
+  ],
+  "Bicarbonate de soude": [],
+  "Bière blonde": [
+    "Gluten"
+  ],
+  "Bière brune": [
+    "Gluten"
+  ],
+  "Bigorneau": [
+    "Mollusques"
+  ],
+  "Biscotte": [
+    "Gluten"
+  ],
+  "Biscuit apéritif": [
+    "Gluten"
+  ],
+  "Biscuit cuillère": [
+    "Gluten",
+    "Œufs"
+  ],
+  "Biscuit sablé": [
+    "Gluten"
+  ],
+  "Blanc d'oeuf": [
+    "Œufs"
+  ],
+  "Blanc de poulet": [],
+  "Blanquette de veau": [],
+  "Blette": [],
+  "Bleu d'Auvergne": [
+    "Lactose"
+  ],
+  "Bleu de Bresse": [
+    "Lactose"
+  ],
+  "Boeuf haché": [],
+  "Boudin blanc": [],
+  "Boudin noir": [],
+  "Boudoir": [
+    "Gluten",
+    "Œufs"
+  ],
+  "Bouillon": [],
+  "Bouillon de boeuf": [],
+  "Bouillon de légumes": [],
+  "Bouillon de légumes déshydraté": [],
+  "Bouillon de poulet": [],
+  "Boulgour": [
+    "Gluten"
+  ],
+  "Boulgour fin": [
+    "Gluten"
+  ],
+  "Boulgour gros": [
+    "Gluten"
+  ],
+  "Bouquet garni": [],
+  "Bourbon": [],
+  "Brie": [
+    "Lactose"
+  ],
+  "Brochet": [
+    "Poisson"
+  ],
+  "Brocolis": [],
+  "Bûche de chèvre": [
+    "Lactose"
+  ],
+  "Bulot": [
+    "Mollusques"
+  ],
+  "Burrata": [
+    "Lactose"
+  ],
+  "Cabillaud": [
+    "Poisson"
+  ],
+  "Cacahuète": [
+    "Arachides"
+  ],
+  "Cacahuète grillée salée": [
+    "Arachides"
+  ],
+  "Cacao en poudre": [],
+  "Cacao non sucré": [],
+  "Café": [],
+  "Café expresso": [],
+  "Caille": [],
+  "Calamar": [
+    "Mollusques"
+  ],
+  "Calvados": [],
+  "Camembert": [
+    "Lactose"
+  ],
+  "Canard": [],
+  "Cannelle": [],
+  "Cannelle en bâton": [],
+  "Cannelle en poudre": [],
+  "Cantal": [
+    "Lactose"
+  ],
+  "Câpres": [],
+  "Câpres en bocal": [],
+  "Carambole": [],
+  "Caramel": [],
+  "Caramel au beurre salé": [
+    "Lactose"
+  ],
+  "Cardamome noire": [],
+  "Cardamome verte": [],
+  "Cardon": [],
+  "Carotte": [],
+  "Carotte nouvelle": [],
+  "Carpaccio de boeuf": [],
+  "Carpe": [
+    "Poisson"
+  ],
+  "Cassis": [],
+  "Cassonade": [],
+  "Caviar": [
+    "Poisson"
+  ],
+  "Céleri branche": [
+    "Céleri"
+  ],
+  "Céleri rave": [
+    "Céleri"
+  ],
+  "Cèpe": [],
+  "Cerfeuil": [],
+  "Cerise": [],
+  "Cerise blanche": [],
+  "Cerise confite": [],
+  "Cerise noire": [],
+  "Chair de crabe": [
+    "Crustacés"
+  ],
+  "Champagne": [
+    "Sulfites"
+  ],
+  "Champignon": [],
+  "Champignon de Paris": [],
+  "Champignon shiitaké": [],
+  "Champignons en boîte": [],
+  "Chapelure": [
+    "Gluten"
+  ],
+  "Châtaigne": [],
+  "Chayotte": [],
+  "Cheddar": [
+    "Lactose"
+  ],
+  "Cheval": [],
+  "Chèvre frais": [
+    "Lactose"
+  ],
+  "Chevreuil": [],
+  "Chicorée": [],
+  "Chili en poudre": [],
+  "Chipolata": [],
+  "Chips de maïs": [],
+  "Chocolat": [],
+  "Chocolat au lait": [
+    "Lactose"
+  ],
+  "Chocolat blanc": [
+    "Lactose"
+  ],
+  "Chocolat noir": [],
+  "Chorizo": [
+    "Gluten"
+  ],
+  "Chou blanc": [],
+  "Chou chinois": [],
+  "Chou de Bruxelles": [],
+  "Chou de Milan": [],
+  "Chou frisé": [],
+  "Chou kale": [],
+  "Chou pak-choï": [],
+  "Chou romanesco": [],
+  "Chou rouge": [],
+  "Chou vert": [],
+  "Chou-fleur": [],
+  "Choucroute": [],
+  "Chutney de mangue": [],
+  "Ciboulette": [],
+  "Cidre brut": [
+    "Sulfites"
+  ],
+  "Cinq-épices": [],
+  "Citron": [],
+  "Citron confit": [],
+  "Citron jaune": [],
+  "Citron vert": [],
+  "Citronnelle": [],
+  "Citrouille": [],
+  "Clémentine": [],
+  "Clotted cream": [
+    "Lactose"
+  ],
+  "Clou de girofle": [],
+  "Coeurs d'artichaut": [],
+  "Coeurs de palmier": [],
+  "Cognac": [],
+  "Coing": [],
+  "Cointreau": [],
+  "Colin": [
+    "Poisson"
+  ],
+  "Colombo en poudre": [],
+  "Colorant alimentaire": [],
+  "Combava": [],
+  "Compote de pomme": [],
+  "Comté": [
+    "Lactose"
+  ],
+  "Concentré de tomate": [],
+  "Concombre": [],
+  "Confit d'échalote": [],
+  "Confit d'oignon": [],
+  "Confit de canard": [],
+  "Confiture d'abricot": [],
+  "Confiture de fraise": [],
+  "Congre": [
+    "Poisson"
+  ],
+  "Coq": [],
+  "Coque": [
+    "Mollusques"
+  ],
+  "Coquille Saint-Jacques": [
+    "Mollusques"
+  ],
+  "Cordon bleu": [],
+  "Coriandre en grains": [],
+  "Coriandre en poudre": [],
+  "Coriandre fraîche": [],
+  "Cornichon": [],
+  "Cornichons au vinaigre": [],
+  "Cornichons en bocal": [],
+  "Corossol": [],
+  "Côte de porc": [],
+  "Côte de veau": [],
+  "Côtelette d'agneau": [],
+  "Cottage cheese": [
+    "Lactose"
+  ],
+  "Coulis de tomate": [],
+  "Coulommiers": [
+    "Lactose"
+  ],
+  "Courge butternut": [],
+  "Courge musquée": [],
+  "Courge spaghetti": [
+    "Gluten"
+  ],
+  "Courgette": [],
+  "Couscous": [
+    "Gluten"
+  ],
+  "Couteau": [
+    "Mollusques"
+  ],
+  "Crabe": [
+    "Crustacés"
+  ],
+  "Cracker": [
+    "Gluten"
+  ],
+  "Cranberry": [],
+  "Cranberry séchée": [],
+  "Crème": [],
+  "Crème anglaise": [
+    "Lactose"
+  ],
+  "Crème de balsamique": [
+    "Lactose"
+  ],
+  "Crème de coco": [],
+  "Crème de marron": [],
+  "Crème de tartre": [],
+  "Crème double": [
+    "Lactose"
+  ],
+  "Crème fleurette": [
+    "Lactose"
+  ],
+  "Crème fouettée": [
+    "Lactose"
+  ],
+  "Crème fraîche épaisse": [
+    "Lactose"
+  ],
+  "Crème fraîche liquide": [
+    "Lactose"
+  ],
+  "Crème liquide entière": [
+    "Lactose"
+  ],
+  "Crème liquide légère": [
+    "Lactose"
+  ],
+  "Crème pâtissière": [
+    "Lactose"
+  ],
+  "Cresson": [],
+  "Crevette": [
+    "Crustacés"
+  ],
+  "Crevette rose": [
+    "Crustacés"
+  ],
+  "Crosne": [],
+  "Crottin de chèvre": [
+    "Lactose"
+  ],
+  "Croûton à l'ail": [
+    "Gluten"
+  ],
+  "Croûtons": [
+    "Gluten"
+  ],
+  "Cube de bouillon": [],
+  "Cuisse de canard confite": [],
+  "Cuisse de dinde": [],
+  "Cuisse de poulet": [],
+  "Cuisses de grenouille": [],
+  "Cumin en grains": [],
+  "Cumin en poudre": [],
+  "Curcuma": [],
+  "Curcuma en poudre": [],
+  "Curcuma frais": [],
+  "Curry en poudre": [],
+  "Curry madras": [],
+  "Darne de saumon": [
+    "Poisson"
+  ],
+  "Datte": [],
+  "Datte medjool": [],
+  "Daurade royale": [
+    "Poisson"
+  ],
+  "Décor en sucre": [],
+  "Dinde": [],
+  "Dinde hachée": [],
+  "Dorade": [
+    "Poisson"
+  ],
+  "Eau": [],
+  "Eau de coco": [],
+  "Eau de fleur d'oranger": [],
+  "Eau de rose": [],
+  "Eau de vie": [],
+  "Eau gazeuse": [],
+  "Échalote": [],
+  "Échine de porc": [],
+  "Écorce d'orange": [],
+  "Édam": [
+    "Lactose"
+  ],
+  "Edamame": [
+    "Soja"
+  ],
+  "Édulcorant": [],
+  "Emmental": [
+    "Lactose"
+  ],
+  "Emmental râpé": [
+    "Lactose"
+  ],
+  "Encornet": [
+    "Mollusques"
+  ],
+  "Endive": [],
+  "Endive rouge": [],
+  "Entrecôte": [],
+  "Épaule d'agneau": [],
+  "Épeautre": [],
+  "Épices à colombo": [],
+  "Épices à couscous": [
+    "Gluten"
+  ],
+  "Épices à pain d'épices": [
+    "Gluten"
+  ],
+  "Épices barbecue": [],
+  "Épices cajun": [],
+  "Épices tandoori": [],
+  "Épinard baby": [],
+  "Épinards": [],
+  "Époisses": [
+    "Lactose"
+  ],
+  "Escalope de dinde": [],
+  "Escalope de poulet panée": [],
+  "Escalope de veau": [],
+  "Escargot": [
+    "Mollusques"
+  ],
+  "Espadon": [
+    "Poisson"
+  ],
+  "Estragon": [],
+  "Étrille": [
+    "Crustacés"
+  ],
+  "Extrait de café": [],
+  "Extrait de vanille": [],
+  "Faisselle": [
+    "Lactose"
+  ],
+  "Farine": [],
+  "Farine d'amande": [
+    "Fruits à coque"
+  ],
+  "Farine de blé complète": [
+    "Gluten"
+  ],
+  "Farine de blé T45": [
+    "Gluten"
+  ],
+  "Farine de blé T55": [
+    "Gluten"
+  ],
+  "Farine de blé T65": [
+    "Gluten"
+  ],
+  "Farine de châtaigne": [],
+  "Farine de coco": [],
+  "Farine de lupin": [
+    "Lupin"
+  ],
+  "Farine de maïs": [],
+  "Farine de millet": [],
+  "Farine de pois chiche": [],
+  "Farine de quinoa": [],
+  "Farine de riz": [],
+  "Farine de sarrasin": [],
+  "Farine de seigle": [
+    "Gluten"
+  ],
+  "Farine sans gluten": [],
+  "Farine tout usage": [
+    "Gluten"
+  ],
+  "Faux-filet": [],
+  "Fécule de maïs": [],
+  "Fécule de pomme de terre": [],
+  "Fenouil": [],
+  "Feta": [
+    "Lactose"
+  ],
+  "Feuille de combava": [],
+  "Feuille de curry": [],
+  "Feuilles de bananier": [],
+  "Feuilles de riz": [],
+  "Feuilles de vigne": [],
+  "Fève": [],
+  "Fève tonka": [],
+  "Figue": [],
+  "Figue sèche": [],
+  "Filet de boeuf": [],
+  "Filet de cabillaud": [
+    "Poisson"
+  ],
+  "Filet de saumon": [
+    "Poisson"
+  ],
+  "Filet mignon de porc": [],
+  "Flétan": [
+    "Poisson"
+  ],
+  "Fleur de courgette": [],
+  "Fleur de sel": [],
+  "Flocons d'avoine": [],
+  "Foie de veau": [],
+  "Foie gras": [],
+  "Fond brun": [],
+  "Fond de veau": [],
+  "Fond de volaille": [],
+  "Fondant pâtissier": [],
+  "Fonio": [],
+  "Fourme d'Ambert": [
+    "Lactose"
+  ],
+  "Fraise": [],
+  "Fraise des bois": [],
+  "Framboise": [],
+  "Freekeh": [],
+  "Frisée": [],
+  "Fromage": [
+    "Lactose"
+  ],
+  "Fromage à fondue": [
+    "Lactose"
+  ],
+  "Fromage à raclette": [
+    "Lactose"
+  ],
+  "Fromage blanc": [
+    "Lactose"
+  ],
+  "Fromage de brebis": [
+    "Lactose"
+  ],
+  "Fromage fondu": [
+    "Lactose"
+  ],
+  "Fromage frais aux herbes": [
+    "Lactose"
+  ],
+  "Fromage râpé": [
+    "Lactose"
+  ],
+  "Fruit de la passion": [],
+  "Fruit du dragon": [],
+  "Fruits confits": [],
+  "Fumet de poisson": [
+    "Poisson"
+  ],
+  "Fusilli": [
+    "Gluten"
+  ],
+  "Galanga": [],
+  "Galette de riz": [],
+  "Gambas": [
+    "Crustacés"
+  ],
+  "Garam masala": [],
+  "Gélatine": [],
+  "Gelée de groseille": [],
+  "Gelée royale": [],
+  "Génoise": [
+    "Gluten",
+    "Œufs"
+  ],
+  "Germe de blé": [],
+  "Germe de haricot": [],
+  "Germe de soja": [
+    "Soja"
+  ],
+  "Ghee": [],
+  "Gibier": [],
+  "Gigot d'agneau": [],
+  "Gin": [],
+  "Gingembre": [],
+  "Gingembre en poudre": [],
+  "Gingembre frais": [],
+  "Gingembre mariné": [],
+  "Girolle": [],
+  "Glaçage royal": [],
+  "Glucose": [],
+  "Gombo": [],
+  "Gorgonzola": [
+    "Lactose"
+  ],
+  "Gouda": [
+    "Lactose"
+  ],
+  "Gousse de vanille": [],
+  "Goyave": [],
+  "Graines de chia": [],
+  "Graines de courge": [],
+  "Graines de fenouil": [],
+  "Graines de lin": [],
+  "Graines de moutarde": [
+    "Moutarde"
+  ],
+  "Graines de pavot": [],
+  "Graines de tournesol": [],
+  "Graines germées": [],
+  "Graisse d'oie": [],
+  "Graisse de canard": [],
+  "Grana Padano": [
+    "Lactose"
+  ],
+  "Grand Marnier": [],
+  "Grenade": [],
+  "Grenouille": [],
+  "Griotte": [],
+  "Gros sel": [],
+  "Groseille": [],
+  "Groseille à maquereau": [
+    "Poisson"
+  ],
+  "Gruyère": [
+    "Lactose"
+  ],
+  "Guacamole": [],
+  "Halloumi": [
+    "Lactose"
+  ],
+  "Hareng": [
+    "Poisson"
+  ],
+  "Hareng fumé": [
+    "Poisson"
+  ],
+  "Haricot beurre": [],
+  "Haricot blanc": [],
+  "Haricot noir": [],
+  "Haricot rouge": [],
+  "Haricot vert": [],
+  "Haricots en boîte": [],
+  "Herbes de Provence": [],
+  "Homard": [
+    "Crustacés"
+  ],
+  "Houmous": [
+    "Sésame"
+  ],
+  "Huile": [],
+  "Huile d'arachide": [
+    "Arachides"
+  ],
+  "Huile d'avocat": [],
+  "Huile d'olive": [],
+  "Huile d'olive extra vierge": [],
+  "Huile de cameline": [],
+  "Huile de coco": [],
+  "Huile de colza": [],
+  "Huile de friture": [],
+  "Huile de lin": [],
+  "Huile de maïs": [],
+  "Huile de noisette": [
+    "Fruits à coque"
+  ],
+  "Huile de noix": [
+    "Fruits à coque"
+  ],
+  "Huile de palme": [],
+  "Huile de pépin de courge": [],
+  "Huile de pépins de raisin": [],
+  "Huile de sésame": [
+    "Sésame"
+  ],
+  "Huile de soja": [
+    "Soja"
+  ],
+  "Huile de tournesol": [],
+  "Huile de truffe": [],
+  "Huile neutre": [],
+  "Huile pimentée": [],
+  "Huile végétale": [],
+  "Huître": [
+    "Mollusques"
+  ],
+  "Huître creuse": [
+    "Mollusques"
+  ],
+  "Huître plate": [
+    "Mollusques"
+  ],
+  "Hysope": [],
+  "Igname": [],
+  "Jambon blanc": [],
+  "Jambon cru": [],
+  "Jambon de Parme": [],
+  "Jambon serrano": [],
+  "Jaque": [],
+  "Jarret de porc": [],
+  "Jaune d'oeuf": [
+    "Œufs"
+  ],
+  "Joue de boeuf": [],
+  "Jus d'orange": [],
+  "Jus de canneberge": [],
+  "Jus de citron": [],
+  "Jus de pomme": [],
+  "Jus de raisin": [],
+  "Jus de tomate": [],
+  "Jus de viande": [],
+  "Kaki": [],
+  "Kamut": [],
+  "Kéfir": [
+    "Lactose"
+  ],
+  "Kefta": [],
+  "Ketchup": [],
+  "Kimchi": [],
+  "Kirsch": [],
+  "Kiwi": [],
+  "Kumquat": [],
+  "Lait": [],
+  "Lait concentré non sucré": [
+    "Lactose"
+  ],
+  "Lait concentré sucré": [
+    "Lactose"
+  ],
+  "Lait d'amande": [
+    "Fruits à coque"
+  ],
+  "Lait d'avoine": [],
+  "Lait de coco": [],
+  "Lait de coco en boîte": [],
+  "Lait de riz": [],
+  "Lait de soja": [
+    "Soja"
+  ],
+  "Lait demi-écrémé": [
+    "Lactose"
+  ],
+  "Lait écrémé": [
+    "Lactose"
+  ],
+  "Lait en poudre": [
+    "Lactose"
+  ],
+  "Lait entier": [
+    "Lactose"
+  ],
+  "Lait ribot": [
+    "Lactose"
+  ],
+  "Laitue": [],
+  "Laitue iceberg": [],
+  "Langouste": [
+    "Crustacés"
+  ],
+  "Langoustine": [
+    "Crustacés"
+  ],
+  "Langue de boeuf": [],
+  "Lapin": [],
+  "Lard": [],
+  "Lardons": [],
+  "Lasagne": [
+    "Gluten"
+  ],
+  "Laurier": [],
+  "Laurier séché": [],
+  "Lentille blonde": [],
+  "Lentille corail": [],
+  "Lentille verte": [],
+  "Lentilles en boîte": [],
+  "Levure": [],
+  "Levure boulangère": [
+    "Gluten"
+  ],
+  "Levure chimique": [],
+  "Levure chimique sans gluten": [],
+  "Levure de bière": [
+    "Gluten"
+  ],
+  "Levure maltée": [
+    "Gluten"
+  ],
+  "Lieu jaune": [
+    "Poisson"
+  ],
+  "Lieu noir": [
+    "Poisson"
+  ],
+  "Litchi": [],
+  "Livarot": [
+    "Lactose"
+  ],
+  "Livèche": [],
+  "Longane": [],
+  "Lotte": [
+    "Poisson"
+  ],
+  "Loup de mer": [
+    "Poisson"
+  ],
+  "Macaroni": [
+    "Gluten"
+  ],
+  "Mâche": [],
+  "Madère": [
+    "Sulfites"
+  ],
+  "Magret de canard": [],
+  "Maïs": [],
+  "Maïs doux": [],
+  "Maïs en boîte": [],
+  "Maïzena": [],
+  "Mandarine": [],
+  "Mangoustan": [],
+  "Mangue": [],
+  "Mangue séchée": [],
+  "Manioc": [],
+  "Maquereau": [
+    "Poisson"
+  ],
+  "Margarine": [],
+  "Margarine végétale": [],
+  "Marjolaine": [],
+  "Marmelade d'orange": [],
+  "Maroilles": [
+    "Lactose"
+  ],
+  "Marron glacé": [],
+  "Marsala": [
+    "Sulfites"
+  ],
+  "Mascarpone": [
+    "Lactose"
+  ],
+  "Mayonnaise": [
+    "Œufs"
+  ],
+  "Mélange cinq épices": [],
+  "Mélange de fruits secs": [
+    "Fruits à coque"
+  ],
+  "Mélange quatre épices": [],
+  "Mélasse": [],
+  "Mélisse": [],
+  "Melon": [],
+  "Menthe": [],
+  "Menthe poivrée": [],
+  "Merguez": [],
+  "Merguez d'agneau": [],
+  "Meringue": [
+    "Gluten",
+    "Œufs"
+  ],
+  "Merlu": [
+    "Poisson"
+  ],
+  "Micro-pousse": [],
+  "Miel": [],
+  "Millet": [],
+  "Mirabelle": [],
+  "Miso blanc": [
+    "Soja"
+  ],
+  "Miso rouge": [
+    "Soja"
+  ],
+  "Morbier": [
+    "Lactose"
+  ],
+  "Morue": [
+    "Poisson"
+  ],
+  "Moule": [
+    "Mollusques"
+  ],
+  "Moule de bouchot": [
+    "Mollusques"
+  ],
+  "Moutarde": [
+    "Moutarde"
+  ],
+  "Moutarde à l'ancienne": [
+    "Moutarde"
+  ],
+  "Moutarde de Dijon": [
+    "Moutarde"
+  ],
+  "Moutarde douce": [
+    "Moutarde"
+  ],
+  "Moutarde en pot": [
+    "Moutarde"
+  ],
+  "Moutarde en poudre": [
+    "Moutarde"
+  ],
+  "Mouton": [],
+  "Mozzarella": [
+    "Lactose"
+  ],
+  "Mozzarella di bufala": [
+    "Lactose"
+  ],
+  "Munster": [
+    "Lactose"
+  ],
+  "Mûre": [],
+  "Myrtille": [],
+  "Myrtille sauvage": [],
+  "Nachos": [],
+  "Nappage neutre": [],
+  "Nashi": [],
+  "Navet": [],
+  "Navet nouveau": [],
+  "Nectarine": [],
+  "Nèfle": [],
+  "Nigelle": [],
+  "Noisette": [
+    "Fruits à coque"
+  ],
+  "Noisette grillée": [
+    "Fruits à coque"
+  ],
+  "Noix": [],
+  "Noix de cajou": [
+    "Fruits à coque"
+  ],
+  "Noix de cajou grillée": [
+    "Fruits à coque"
+  ],
+  "Noix de coco": [],
+  "Noix de coco râpée": [],
+  "Noix de macadamia": [
+    "Fruits à coque"
+  ],
+  "Noix de muscade": [],
+  "Noix de pécan": [
+    "Fruits à coque"
+  ],
+  "Noix de Saint-Jacques": [],
+  "Noix du Brésil": [
+    "Fruits à coque"
+  ],
+  "Nougat": [
+    "Fruits à coque"
+  ],
+  "Nougatine": [
+    "Fruits à coque"
+  ],
+  "Nouilles chinoises": [],
+  "Nouilles de riz": [],
+  "Nouilles soba": [],
+  "Nouilles udon": [],
+  "Nugget de poulet": [],
+  "Oeuf de caille": [
+    "Œufs"
+  ],
+  "Oeuf de cane": [
+    "Œufs"
+  ],
+  "Oeufs": [
+    "Œufs"
+  ],
+  "Oeufs de lump": [
+    "Œufs",
+    "Poisson"
+  ],
+  "Oeufs de poisson": [
+    "Œufs",
+    "Poisson"
+  ],
+  "Oeufs de saumon": [
+    "Œufs",
+    "Poisson"
+  ],
+  "Oie": [],
+  "Oignon": [],
+  "Oignon blanc": [],
+  "Oignon confit": [],
+  "Oignon en poudre": [],
+  "Oignon jaune": [],
+  "Oignon rouge": [],
+  "Olive farcie": [],
+  "Olives en bocal": [],
+  "Olives kalamata": [],
+  "Olives noires": [],
+  "Olives vertes": [],
+  "Onglet": [],
+  "Orange": [],
+  "Orange confite": [],
+  "Orge perlé": [
+    "Gluten"
+  ],
+  "Origan": [],
+  "Origan séché": [],
+  "Ormeau": [
+    "Mollusques"
+  ],
+  "Oseille": [],
+  "Oursin": [],
+  "Pain": [
+    "Gluten"
+  ],
+  "Pain complet": [
+    "Gluten"
+  ],
+  "Pain de mie": [
+    "Gluten"
+  ],
+  "Pain de seigle": [
+    "Gluten"
+  ],
+  "Paleron": [],
+  "Palourde": [
+    "Mollusques"
+  ],
+  "Pamplemousse": [],
+  "Panais": [],
+  "Pancetta": [],
+  "Panga": [
+    "Poisson"
+  ],
+  "Papaye": [],
+  "Papier de riz": [],
+  "Paprika doux": [],
+  "Paprika fumé": [],
+  "Parmesan": [
+    "Lactose"
+  ],
+  "Pastèque": [],
+  "Patate douce": [],
+  "Pâte à choux": [
+    "Gluten",
+    "Œufs"
+  ],
+  "Pâte à crêpes": [
+    "Gluten"
+  ],
+  "Pâte à gaufres": [
+    "Gluten"
+  ],
+  "Pâte à pizza": [
+    "Gluten"
+  ],
+  "Pâte à tartiner": [],
+  "Pâte brisée": [
+    "Gluten"
+  ],
+  "Pâte d'amande": [
+    "Fruits à coque"
+  ],
+  "Pâte de curry jaune": [],
+  "Pâte de curry rouge": [],
+  "Pâte de curry vert": [],
+  "Pâte de tamarin": [],
+  "Pâte feuilletée": [
+    "Gluten"
+  ],
+  "Pâte filo": [],
+  "Pâte miso": [
+    "Soja"
+  ],
+  "Pâte sablée": [
+    "Gluten"
+  ],
+  "Pâte wonton": [
+    "Gluten"
+  ],
+  "Pâtes": [],
+  "Pavé de saumon": [
+    "Poisson"
+  ],
+  "Pêche": [],
+  "Pecorino": [
+    "Lactose"
+  ],
+  "Pectine": [],
+  "Penne": [
+    "Gluten"
+  ],
+  "Pépites de chocolat": [],
+  "Perche": [
+    "Poisson"
+  ],
+  "Perles de sucre": [],
+  "Persil": [],
+  "Persil frisé": [],
+  "Persil plat": [],
+  "Persil racine": [],
+  "Pesto basilic": [],
+  "Pesto en pot": [],
+  "Petit épeautre": [],
+  "Petit pois cassé": [],
+  "Petit-lait": [
+    "Lactose"
+  ],
+  "Petit-suisse": [
+    "Lactose"
+  ],
+  "Petits pois": [],
+  "Pétoncle": [
+    "Mollusques"
+  ],
+  "Physalis": [],
+  "Pickles": [],
+  "Pieuvre": [
+    "Mollusques"
+  ],
+  "Pigeon": [],
+  "Pignon de pin": [
+    "Fruits à coque"
+  ],
+  "Piment": [],
+  "Piment banane": [],
+  "Piment chipotle": [],
+  "Piment d'Espelette": [],
+  "Piment de Cayenne": [],
+  "Piment de la Jamaïque": [],
+  "Piment doux": [],
+  "Piment fort": [],
+  "Piment habanero": [],
+  "Piment jalapeño": [],
+  "Piment oiseau": [],
+  "Piment poblano": [],
+  "Piment séché": [],
+  "Piment serrano": [],
+  "Pintade": [],
+  "Pissenlit": [],
+  "Pistache": [
+    "Fruits à coque"
+  ],
+  "Pleurote": [],
+  "Poire": [],
+  "Poire williams": [],
+  "Poireau": [],
+  "Poireau primeur": [],
+  "Pois chiche": [],
+  "Pois chiches en boîte": [],
+  "Poisson blanc": [
+    "Poisson"
+  ],
+  "Poisson pané": [
+    "Poisson"
+  ],
+  "Poisson-chat": [
+    "Poisson"
+  ],
+  "Poitrine de porc": [],
+  "Poivre": [],
+  "Poivre blanc": [],
+  "Poivre blanc moulu": [],
+  "Poivre de Sichuan": [],
+  "Poivre en grains": [],
+  "Poivre long": [],
+  "Poivre noir": [],
+  "Poivre noir moulu": [],
+  "Poivre rose": [],
+  "Poivre vert": [],
+  "Poivron": [],
+  "Poivron jaune": [],
+  "Poivron rouge": [],
+  "Poivron vert": [],
+  "Poivrons grillés en bocal": [],
+  "Polenta": [],
+  "Pollen": [],
+  "Pomelo": [],
+  "Pomme": [],
+  "Pomme de terre": [],
+  "Pomme golden": [],
+  "Pomme granny smith": [],
+  "Pomme reinette": [],
+  "Pont-l'Évêque": [
+    "Lactose"
+  ],
+  "Pop-corn": [],
+  "Porc": [],
+  "Porto": [
+    "Sulfites"
+  ],
+  "Potiron": [],
+  "Poudre à flan": [],
+  "Poudre à lever": [],
+  "Poudre d'amande": [
+    "Fruits à coque"
+  ],
+  "Poudre de chili": [],
+  "Poudre de cinq-épices chinoises": [],
+  "Poudre de curry doux": [],
+  "Poudre de curry fort": [],
+  "Poudre de curry jaune": [],
+  "Poudre de noisette": [
+    "Fruits à coque"
+  ],
+  "Poulet": [],
+  "Poulet entier": [],
+  "Poulet fermier": [],
+  "Poulet haché": [],
+  "Poulpe": [
+    "Mollusques"
+  ],
+  "Pousse d'épinard": [],
+  "Pousse de bambou": [],
+  "Pousse de tournesol": [],
+  "Praire": [
+    "Mollusques"
+  ],
+  "Praliné": [
+    "Fruits à coque"
+  ],
+  "Propolis": [],
+  "Protéine de soja texturée": [
+    "Soja"
+  ],
+  "Provolone": [
+    "Lactose"
+  ],
+  "Prune": [],
+  "Pruneau": [],
+  "Prunelle": [],
+  "Pulpe de tomate": [],
+  "Purée de fruit": [],
+  "Purée de marron": [],
+  "Purée de tomate": [],
+  "Quatre épices": [],
+  "Queue de boeuf": [],
+  "Quinoa": [],
+  "Râble de lapin": [],
+  "Radicchio": [],
+  "Radis": [],
+  "Radis noir": [],
+  "Raie": [
+    "Poisson"
+  ],
+  "Raifort": [],
+  "Raisin": [],
+  "Raisin blanc": [],
+  "Raisin noir": [],
+  "Raisins secs": [],
+  "Ramboutan": [],
+  "Ras el hanout": [],
+  "Reblochon": [
+    "Lactose"
+  ],
+  "Réduction balsamique": [
+    "Lactose"
+  ],
+  "Réglisse": [],
+  "Reine-claude": [],
+  "Rhubarbe": [],
+  "Rhum ambré": [],
+  "Rhum blanc": [],
+  "Ricotta": [
+    "Lactose"
+  ],
+  "Ris de veau": [],
+  "Riz": [],
+  "Riz arborio": [],
+  "Riz au lait": [],
+  "Riz basmati": [],
+  "Riz complet": [],
+  "Riz gluant": [],
+  "Riz noir": [],
+  "Riz pour sushi": [],
+  "Riz rond": [],
+  "Riz rouge": [],
+  "Riz sauvage": [],
+  "Riz thaï": [],
+  "Rognon de veau": [],
+  "Romarin": [],
+  "Roquefort": [
+    "Lactose"
+  ],
+  "Roquette": [],
+  "Roquette sauvage": [],
+  "Rôti de porc": [],
+  "Rouget": [
+    "Poisson"
+  ],
+  "Rouget barbet": [
+    "Poisson"
+  ],
+  "Rumsteck": [],
+  "Rutabaga": [],
+  "Safran": [],
+  "Safran en filaments": [],
+  "Saindoux": [],
+  "Saint-pierre": [
+    "Poisson"
+  ],
+  "Salade verte": [],
+  "Salsifis": [],
+  "Sandre": [
+    "Poisson"
+  ],
+  "Sanglier": [],
+  "Sardine": [
+    "Poisson"
+  ],
+  "Sardines en boîte": [
+    "Poisson"
+  ],
+  "Sarrasin": [],
+  "Sarriette": [],
+  "Sauce barbecue": [],
+  "Sauce béchamel": [],
+  "Sauce chimichurri": [],
+  "Sauce cocktail": [],
+  "Sauce curry": [],
+  "Sauce hoisin": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce hollandaise": [],
+  "Sauce huître": [
+    "Mollusques"
+  ],
+  "Sauce mille-îles": [],
+  "Sauce nuoc-mâm": [
+    "Poisson"
+  ],
+  "Sauce piquante": [],
+  "Sauce piquante en bouteille": [],
+  "Sauce ponzu": [],
+  "Sauce ranch": [],
+  "Sauce salsa": [],
+  "Sauce satay": [],
+  "Sauce soja": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce soja foncée": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce soja légère": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce soja sucrée": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce soja tamari": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce tabasco": [],
+  "Sauce tartare": [],
+  "Sauce teriyaki": [
+    "Gluten",
+    "Soja"
+  ],
+  "Sauce tomate": [],
+  "Sauce tomate en bocal": [],
+  "Sauce vinaigrette": [],
+  "Sauce worcestershire": [
+    "Poisson"
+  ],
+  "Sauce worcestershire végétarienne": [
+    "Poisson"
+  ],
+  "Saucisse": [],
+  "Saucisse de Toulouse": [],
+  "Saucisson à l'ail": [
+    "Gluten"
+  ],
+  "Saucisson sec": [
+    "Gluten"
+  ],
+  "Sauge": [],
+  "Saumon": [
+    "Poisson"
+  ],
+  "Saumon fumé": [
+    "Poisson"
+  ],
+  "Scarole": [],
+  "Seiche": [
+    "Mollusques"
+  ],
+  "Seitan": [
+    "Gluten"
+  ],
+  "Sel": [],
+  "Sel à l'ail": [],
+  "Sel aux herbes": [],
+  "Sel de céleri": [
+    "Céleri"
+  ],
+  "Sel de mer": [],
+  "Sel de mer fumé": [],
+  "Sel fin": [],
+  "Sel fumé": [],
+  "Semoule de blé": [],
+  "Semoule de maïs": [],
+  "Semoule fine": [],
+  "Semoule moyenne": [],
+  "Sésame blanc": [
+    "Sésame"
+  ],
+  "Sésame noir": [
+    "Sésame"
+  ],
+  "Sirop d'agave": [],
+  "Sirop d'érable": [],
+  "Sirop de fruits": [],
+  "Sirop de glucose": [],
+  "Sirop de grenadine": [],
+  "Sirop de maïs": [],
+  "Sirop de menthe": [],
+  "Sirop de sucre de canne": [],
+  "Skyr": [
+    "Lactose"
+  ],
+  "Soja": [
+    "Soja"
+  ],
+  "Sole": [
+    "Poisson"
+  ],
+  "Son d'avoine": [],
+  "Son de blé": [],
+  "Sorgho": [],
+  "Souris d'agneau": [],
+  "Spaghetti": [
+    "Gluten"
+  ],
+  "Spéculoos": [
+    "Gluten"
+  ],
+  "Spiruline": [],
+  "Steak de boeuf": [],
+  "Steak haché": [],
+  "Stévia": [],
+  "Sucre": [],
+  "Sucre blanc": [],
+  "Sucre candi": [],
+  "Sucre complet": [],
+  "Sucre de canne": [],
+  "Sucre en poudre": [],
+  "Sucre glace": [],
+  "Sucre inverti": [],
+  "Sucre muscovado": [],
+  "Sucre perlé": [],
+  "Sucre roux": [],
+  "Sucre semoule": [],
+  "Sucre vanillé": [],
+  "Suif": [],
+  "Sumac": [],
+  "Sureau": [],
+  "Surimi": [
+    "Gluten",
+    "Poisson"
+  ],
+  "Tagliatelles": [
+    "Gluten"
+  ],
+  "Tahini": [
+    "Sésame"
+  ],
+  "Tamarin": [],
+  "Tapenade": [],
+  "Tapenade en pot": [],
+  "Tapioca": [],
+  "Tarama": [
+    "Poisson"
+  ],
+  "Tartare de boeuf": [],
+  "Tempeh": [
+    "Soja"
+  ],
+  "Thé noir": [],
+  "Thé vert": [],
+  "Thon": [
+    "Poisson"
+  ],
+  "Thon blanc": [
+    "Poisson"
+  ],
+  "Thon en boîte": [
+    "Poisson"
+  ],
+  "Thon rouge": [
+    "Poisson"
+  ],
+  "Thym": [],
+  "Thym citron": [],
+  "Thym séché": [],
+  "Tilapia": [
+    "Poisson"
+  ],
+  "Tofu": [
+    "Soja"
+  ],
+  "Tofu fumé": [
+    "Soja"
+  ],
+  "Tofu soyeux": [
+    "Soja"
+  ],
+  "Tomate": [],
+  "Tomate cerise": [],
+  "Tomate en grappe": [],
+  "Tomate séchée": [],
+  "Tomates pelées en boîte": [],
+  "Tomme de Savoie": [
+    "Lactose"
+  ],
+  "Topinambour": [],
+  "Tortilla de blé": [
+    "Gluten"
+  ],
+  "Tortilla de maïs": [],
+  "Tourteau": [
+    "Crustacés"
+  ],
+  "Trail mix": [
+    "Fruits à coque"
+  ],
+  "Travers de porc": [],
+  "Trévise": [],
+  "Triple sec": [],
+  "Truffe blanche": [],
+  "Truffe noire": [],
+  "Truite": [
+    "Poisson"
+  ],
+  "Truite fumée": [
+    "Poisson"
+  ],
+  "Turbot": [
+    "Poisson"
+  ],
+  "Vanille": [],
+  "Vanille en poudre": [],
+  "Veau": [],
+  "Vergeoise": [],
+  "Vermicelle de riz": [],
+  "Vermicelle de soja": [
+    "Soja"
+  ],
+  "Vermicelles en sucre": [],
+  "Vermouth": [
+    "Sulfites"
+  ],
+  "Vernis": [],
+  "Verveine": [],
+  "Viande hachée mélangée": [],
+  "Vin": [],
+  "Vin blanc": [
+    "Sulfites"
+  ],
+  "Vin de cuisine": [
+    "Sulfites"
+  ],
+  "Vin de Xérès": [
+    "Sulfites"
+  ],
+  "Vin jaune": [
+    "Sulfites"
+  ],
+  "Vin rosé": [
+    "Sulfites"
+  ],
+  "Vin rouge": [
+    "Sulfites"
+  ],
+  "Vinaigre": [],
+  "Vinaigre balsamique": [],
+  "Vinaigre balsamique blanc": [],
+  "Vinaigre blanc": [],
+  "Vinaigre de cidre": [],
+  "Vinaigre de framboise": [],
+  "Vinaigre de riz": [],
+  "Vinaigre de riz assaisonné": [],
+  "Vinaigre de vin blanc": [
+    "Sulfites"
+  ],
+  "Vinaigre de vin rouge": [
+    "Sulfites"
+  ],
+  "Vinaigre de xérès": [],
+  "Vinaigre pour sushi": [],
+  "Vinaigrette balsamique": [],
+  "Vodka": [],
+  "Wasabi": [],
+  "Wasabi en pâte": [],
+  "Whisky": [],
+  "Yaourt": [
+    "Lactose"
+  ],
+  "Yaourt à la grecque": [
+    "Lactose"
+  ],
+  "Yaourt grec": [
+    "Lactose"
+  ],
+  "Yaourt nature": [
+    "Lactose"
+  ],
+  "Yuzu": [],
+  "Za'atar": [
+    "Sésame"
+  ],
+  "Zeste confit": [],
+  "Zeste d'orange": [],
+  "Zeste de citron": []
+}
