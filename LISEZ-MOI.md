@@ -21,20 +21,30 @@ thème sombre disponible en un clic.
   première recette (votre base de données de recettes)
 - `ingredients.json` : créé automatiquement, contient la liste des
   ingrédients réutilisables dans les menus déroulants
+- `ingredient_custom_data.json` : créé automatiquement si vous modifiez les
+  allergènes/valeurs nutritionnelles d'un ingrédient ou en créez un nouveau
+  (voir "Gérer les ingrédients")
 - `ingredient_prices.json` : créé automatiquement si vous renseignez des prix
   d'ingrédients (pour l'estimation du coût des recettes)
+- `ingredient_dismissed_pairs.json` : créé automatiquement si vous indiquez
+  qu'une paire d'ingrédients détectée comme doublon probable n'en est pas un
+  (voir "🔤 Vérifier les doublons")
 - `weekly_plan.json` : créé automatiquement, contient votre planning de la
   semaine
 - `menus.json` : créé automatiquement, contient vos menus enregistrés
+- `saved_shopping_lists.json` : créé automatiquement si vous enregistrez une
+  liste de courses pour plus tard
 - `trash.json` : créé automatiquement, contient les recettes envoyées à la
   corbeille
 - `recent_views.json` : créé automatiquement, mémorise vos dernières
   recettes consultées pour la page d'accueil
 - `backups/` : créé automatiquement, contient les sauvegardes automatiques
   périodiques (voir plus bas)
-- `settings.json` : créé automatiquement si vous configurez un dossier de
-  sauvegarde cloud
-- `images/` : créé automatiquement, contient les photos de vos recettes
+- `settings.json` : créé automatiquement, mémorise votre choix de thème
+  (clair/sombre), l'acceptation de la clause de responsabilité, et le
+  dossier de sauvegarde cloud si vous en configurez un
+- `images/` : créé automatiquement, contient les photos de vos recettes et
+  de votre journal de cuisine
 
 > ⚠️ Important : gardez `ingredients_par_defaut.json`, `valeurs_nutritionnelles.json`
 > **et** `ingredient_allergenes.json` dans le même dossier que `main.py` (et
@@ -103,7 +113,27 @@ python main.py
 >   `--windowed` déjà indiquée dans les instructions supprime aussi cette
 >   fenêtre noire automatiquement.
 
+> 💡 Plusieurs fenêtres de l'application (page d'accueil, "Ajouter une
+> recette", "Toutes les recettes", "Voir une recette précise", "Planning de
+> la semaine", "Nouveau menu") s'ouvrent à la hauteur de votre écran pour
+> afficher un maximum de contenu sans avoir à agrandir la fenêtre à la
+> main. Sous Windows, cette hauteur tient automatiquement compte de la
+> barre des tâches (l'application ne se retrouve jamais partiellement
+> masquée derrière). Un petit espace vide est aussi laissé en bas de
+> chaque liste déroulante, pour pouvoir descendre l'ascenseur un peu plus
+> bas que le dernier élément et le voir entièrement.
+
 ## 3. Comment ça marche
+
+**⚠ Clause de responsabilité (au tout premier lancement)**
+Avant de pouvoir utiliser l'application pour la première fois, une fenêtre
+affiche une clause de responsabilité (notamment sur la gestion des
+allergènes, qui reste une aide informative et ne remplace jamais une
+vérification personnelle des étiquettes des produits). Cochez "J'ai lu et
+j'accepte les conditions ci-dessus" pour activer le bouton "Continuer" et
+accéder à l'application. Ce texte n'apparaît **qu'une seule fois** : votre
+acceptation est mémorisée dans `settings.json`, les lancements suivants
+vont directement à la page d'accueil.
 
 **🏠 Page d'accueil**
 En haut à gauche, le bouton **"☕ Faire un don"** ouvre dans votre navigateur
@@ -155,6 +185,12 @@ Un cinquième bouton permet de gérer la liste des ingrédients réutilisables :
   calorique d'un ingrédient courant, c'est votre valeur qui sera utilisée
   partout. Le bouton "🗑️ Supprimer cet ingrédient" est aussi disponible
   directement dans cette fenêtre lors d'une modification ;
+  > En créant un nouvel ingrédient, l'application vérifie automatiquement
+  > qu'il ne s'agit pas simplement du singulier ou du pluriel d'un
+  > ingrédient déjà existant (ex. tenter de créer "Tomates" alors que
+  > "Tomate" existe déjà) et vous invite à utiliser directement l'ingrédient
+  > existant plutôt que d'en créer un doublon — pour que chaque ingrédient
+  > n'apparaisse toujours qu'une seule fois dans la liste ;
 - "📚 Charger les ~1000 ingrédients courants" ajoute d'un coup tous les
   ingrédients de la liste fournie avec l'application qui ne sont pas déjà
   présents (aucun doublon, aucune suppression) ;
@@ -172,6 +208,10 @@ Un cinquième bouton permet de gérer la liste des ingrédients réutilisables :
     nettoyer une longue liste sans traiter les paires une par une).
   Dans tous les cas, la fusion renomme l'ingrédient partout où il est
   utilisé dans vos recettes, comme un renommage classique.
+  Si une paire proposée n'est **pas réellement un doublon** (deux
+  ingrédients différents qui se ressemblent juste beaucoup), sélectionnez-la
+  et cliquez sur **"✕ Ce n'est pas un doublon"** : elle disparaît de cette
+  analyse, aujourd'hui et lors de toutes les analyses suivantes.
 
 > Au tout premier lancement de l'application (avant toute création de
 > recette), la liste des ~1000 ingrédients les plus utilisés en cuisine est
@@ -188,7 +228,9 @@ ingrédient donné**. Recherchez et sélectionnez l'ingrédient dans la liste
 la liste des recettes concernées s'affiche, avec la quantité nécessaire pour
 1 personne dans chacune — pratique pour savoir quoi cuisiner avec un
 ingrédient qui traîne, ou pour repérer toutes les recettes à ajuster si un
-ingrédient devient difficile à trouver.
+ingrédient devient difficile à trouver. Sélectionnez une recette dans les
+résultats puis "📖 Consulter la recette sélectionnée" (ou double-cliquez
+dessus) pour l'ouvrir directement dans "Voir une recette précise".
 
 **💰 Gérer les prix (dans "Gérer les ingrédients")**
 Cette fenêtre permet de renseigner un prix pour les ingrédients qui vous
@@ -260,7 +302,13 @@ ses données structurées ; si aucune photo n'est trouvée (ou si son
 téléchargement échoue), la recette s'importe quand même, simplement sans
 photo — vous pourrez toujours en ajouter une manuellement. Si aucune donnée
 de recette n'est trouvée sur la page, un message vous l'indique et vous
-pouvez créer la recette manuellement.
+pouvez créer la recette manuellement. Si un ingrédient importé n'est qu'une
+variante singulier/pluriel d'un ingrédient déjà dans votre liste (ex. le
+site utilise "Tomates" alors que vous avez déjà "Tomate"), l'application
+réutilise automatiquement votre ingrédient existant au lieu d'en créer un
+doublon, aussi bien dans la liste que dans la recette importée elle-même —
+ce qui permet aussi de conserver la détection des allergènes et des valeurs
+nutritionnelles pour cet ingrédient.
 
 **📷 Importer une recette depuis une photo**
 Prenez en photo (ou scannez) une recette manuscrite, une carte de recette ou
@@ -285,6 +333,12 @@ instructions par système). Sans cela, le bouton "🔍 Extraire le texte" vous
 indique clairement ce qu'il manque plutôt que de planter.
 
 **➕ Ajouter une recette**
+Le formulaire est organisé en deux colonnes pour limiter le défilement :
+à gauche le nom, la catégorie, les temps/difficulté et les étiquettes, à
+droite les allergènes ; plus bas, les ingrédients à gauche et la
+description/notes personnelles à droite. La fenêtre s'ouvre à la hauteur de
+votre écran pour afficher un maximum de contenu d'un coup.
+
 Donnez un nom, cochez éventuellement "⭐ Marquer comme recette favorite" et
 notez la recette avec **1 à 5 étoiles cliquables** ("Ma note" — cliquer sur
 une étoile déjà sélectionnée remet la note à zéro). Choisissez une catégorie
@@ -320,7 +374,10 @@ Le bouton **"🔍 Détecter automatiquement"**, à côté du titre "Allergènes
 présents", relance cette même synchronisation sur l'ensemble des ingrédients
 déjà saisis — pratique après avoir modifié plusieurs lignes d'un coup, ou
 après avoir changé les allergènes d'un ingrédient dans "Gérer les
-ingrédients".
+ingrédients". Juste en dessous, un texte en **rouge vif** rappelle que
+cette détection n'est qu'indicative : vérifiez toujours les allergènes sur
+les étiquettes des produits physiques avant de cuisiner pour quelqu'un
+ayant une allergie.
 
 Pour les photos, cliquez sur "📷 Ajouter une photo" autant de fois que
 nécessaire : vous pouvez attacher **plusieurs photos** à une même recette
@@ -391,20 +448,36 @@ fraîche", par exemple.
 
 Les recettes favorites sont signalées par une ⭐. Si
 vous avez utilisé "🛒 Ajouter à la liste de courses" depuis "Voir une recette
-précise", ces recettes sont déjà cochées avec le bon nombre de personnes à
-l'ouverture. Cochez les recettes voulues, indiquez pour chacune le nombre de
-personnes (préréglé sur le nombre de personnes par défaut de chaque recette),
-puis :
-- "Calculer la liste de courses" affiche le total de chaque ingrédient
-  nécessaire, **regroupé par rayon de magasin** (Fruits & Légumes, Viandes &
-  Poissons, Crèmerie, Boulangerie & Pâtisserie, Épicerie, Herbes & Épices,
-  Boissons, Autre) plutôt qu'en une simple liste alphabétique — pratique pour
-  suivre l'ordre des rayons pendant les courses ;
-- "📝 Exporter en texte" enregistre la liste dans un fichier `.txt` ;
-- "📊 Exporter en Excel" enregistre la liste dans un fichier `.xlsx` (une
-  feuille "Recettes" et une feuille "Ingrédients" avec une colonne "Rayon") ;
-- "📄 Exporter en PDF" enregistre la liste dans un fichier `.pdf` mis en
-  forme, avec les mêmes regroupements par rayon ;
+précise", ces recettes sont **déjà ajoutées à la liste de courses** avec le
+bon nombre de personnes dès l'ouverture de cette fenêtre. À droite du
+nombre de personnes de chaque recette :
+- **"🛒 Ajouter aux courses"** ajoute immédiatement les ingrédients de cette
+  recette (à la quantité de personnes indiquée) à la liste de courses
+  affichée en bas de la fenêtre. Un ingrédient déjà présent (venant d'une
+  autre recette ou ajouté manuellement) voit sa quantité **s'additionner**
+  plutôt que de créer une ligne en double. Ajouter une même recette une
+  seconde fois avec un nombre de personnes différent **remplace** la
+  quantité précédente pour cette recette (plutôt que de la compter deux
+  fois) ;
+- **"✏️ Modifier"** ouvre directement le formulaire d'édition de cette
+  recette, sans avoir à passer par "Modifier / Supprimer une recette".
+
+Ajoutez ainsi autant de recettes que vous voulez à la liste, une par une,
+en ajustant le nombre de personnes de chacune avant de cliquer sur
+"🛒 Ajouter aux courses". La liste de courses en bas de la fenêtre se met à
+jour à chaque ajout, **regroupée par rayon de magasin** (Fruits & Légumes,
+Viandes & Poissons, Crèmerie, Boulangerie & Pâtisserie, Épicerie, Herbes &
+Épices, Boissons, Autre) plutôt qu'en une simple liste alphabétique —
+pratique pour suivre l'ordre des rayons pendant les courses. Une fois votre
+liste complète :
+- "📤 Exporter" ouvre une petite fenêtre pour choisir le format d'export :
+  - "📝 Exporter en texte" enregistre la liste dans un fichier `.txt` ;
+  - "📊 Exporter en Excel" enregistre la liste dans un fichier `.xlsx` (une
+    feuille "Recettes" et une feuille "Ingrédients" avec une colonne "Rayon") ;
+  - "📄 Exporter en PDF" enregistre la liste dans un fichier `.pdf` mis en
+    forme, avec les mêmes regroupements par rayon.
+  Ce même bouton (et cette même fenêtre de choix de format) est aussi
+  disponible depuis "Planning de la semaine" et "Mes menus" ;
 - "🖨️ Imprimer" envoie directement la liste à votre imprimante par défaut
   (elle est d'abord générée en PDF en coulisses, puis envoyée à l'impression) ;
 - "☑️ Mode courses (cocher au fur et à mesure)" ouvre la liste calculée sous
@@ -412,8 +485,55 @@ puis :
   au fur et à mesure que vous le mettez dans le caddie (un compteur affiche
   votre progression) — ce même bouton est aussi disponible depuis le
   "Planning de la semaine" et "Mes menus" ;
-- "🗑 Vider la sélection" décoche toutes les recettes et efface la mémoire de
-  présélection issue de "🛒 Ajouter à la liste de courses".
+- "🗑 Vider la liste de courses" efface la mémoire de présélection issue de
+  "🛒 Ajouter à la liste de courses", les ingrédients ajoutés manuellement,
+  et **remet la liste de courses affichée à zéro**.
+
+Si la liste de courses affichée contient des ingrédients au moment où vous
+fermez cette fenêtre, un message vous prévient qu'elle sera perdue et vous
+laisse annuler la fermeture — pensez à "💾 Enregistrer cette liste pour plus
+tard" avant de fermer si vous voulez la conserver.
+
+**✏️ Modifier ou supprimer un ingrédient de la liste calculée**
+Dès qu'un ingrédient apparaît dans la liste de courses affichée (que ce soit
+via "🛒 Ajouter aux courses" sur "Toutes les recettes", ou via "Calculer la
+liste de courses" sur "Planning de la semaine"/"Nouveau menu"), chaque ligne
+est modifiable : changez la **quantité** directement dans son champ
+(validez avec Entrée ou en cliquant ailleurs), ou cliquez sur "🗑" à droite
+d'une ligne pour retirer complètement cet ingrédient de la liste — pratique
+si vous avez déjà ce produit chez vous. Ces modifications sont prises en
+compte par tous les exports, l'impression et le "Mode courses", tant que
+vous n'ajoutez pas une nouvelle recette ou ne relancez pas le calcul (ce qui
+recalcule sans perdre vos modifications précédentes sur "Toutes les
+recettes", mais repart de zéro sur "Planning"/"Nouveau menu").
+
+**💾 Enregistrer / 📂 Charger une liste de courses**
+Disponible sur "Toutes les recettes", "Planning de la semaine" et "Nouveau
+menu" : "💾 Enregistrer cette liste pour plus tard" sauvegarde la liste
+actuellement affichée (avec vos éventuelles modifications de quantité et
+suppressions) sous un nom de votre choix, pour la retrouver un autre jour —
+pratique pour une liste de courses récurrente, ou pour continuer vos
+courses en plusieurs fois. "📂 Charger une liste enregistrée" ouvre la
+liste de toutes vos listes sauvegardées (avec leur nombre d'ingrédients et
+leur date), pour en **charger** une (elle remplace alors la liste
+actuellement affichée, quelle que soit la fenêtre depuis laquelle vous
+l'avez enregistrée) ou en **supprimer** une définitivement.
+
+**➕ Ajouter un ingrédient à la liste de courses**
+Ce bouton (disponible sur "Toutes les recettes", "Planning de la semaine" et
+"Nouveau menu") permet d'ajouter à la liste de courses un ou plusieurs
+articles qui ne viennent d'aucune recette — du papier essuie-tout, des sacs
+poubelle, ou tout autre ingrédient que vous voulez juste ne pas oublier.
+Choisissez l'ingrédient (ou créez-en un nouveau directement depuis cette
+fenêtre via "🥕 Nouvel ingrédient" s'il n'existe pas encore dans votre
+liste), indiquez une quantité et une unité (libre : pièce, boîte, paquet,
+rouleau...), puis "➕ Ajouter à la liste" : l'ingrédient rejoint une **liste
+d'attente**, et les champs se vident pour enchaîner rapidement la saisie du
+suivant, sans avoir à rouvrir la fenêtre à chaque fois. Une fois tous vos
+articles ajoutés à la liste d'attente (retirez-en un avec "🗑 Retirer de la
+liste d'attente" si besoin), cliquez sur "✅ Valider tous ces ingrédients"
+pour les envoyer d'un coup dans la liste de courses, regroupés par rayon
+comme les autres ingrédients — la liste affichée s'actualise immédiatement.
 
 Chaque bouton d'export/impression recalcule automatiquement la liste à partir
 de la sélection actuelle.
@@ -439,6 +559,12 @@ de la sélection actuelle.
 > chaque recette.
 
 **🍽️ Voir une recette précise**
+La fenêtre s'ouvre à la hauteur de votre écran, et l'affichage d'une
+recette est divisé en deux panneaux côte à côte : à gauche les ingrédients
+et les informations (allergènes, coût, nutrition), à droite la description
+et les notes personnelles. Les boutons d'action sont alignés en rangées de
+4 pour un accès rapide.
+
 Une **barre de recherche** et un menu **"Trier :"** (Nom, Temps de
 préparation, Difficulté, Note, Ajoutées récemment) permettent de retrouver
 rapidement une recette (là aussi, les favorites sont marquées d'une ⭐, et la
@@ -461,8 +587,8 @@ met à jour immédiatement, sans avoir à retaper le nombre ni recliquer sur
 - "🖨️ Imprimer" envoie directement cette même mise en page à votre
   imprimante par défaut, sans passer par un fichier à ouvrir manuellement.
 - "🛒 Ajouter à la liste de courses" mémorise la recette affichée (avec son
-  nombre de personnes) pour qu'elle soit automatiquement cochée et
-  préremplie la prochaine fois que vous ouvrirez "Voir toutes les recettes" —
+  nombre de personnes) pour qu'elle soit automatiquement ajoutée à la liste
+  de courses la prochaine fois que vous ouvrirez "Voir toutes les recettes" —
   pratique pour construire sa liste de courses recette par recette plutôt
   que de tout sélectionner d'un coup.
 - "🍳 J'ai cuisiné ça !" incrémente un compteur "nombre de fois cuisinée" pour
@@ -591,6 +717,9 @@ colonne de droite "Ce que j'ai". Une fois votre sélection faite, cliquez sur
 - les recettes **✅ réalisables** (tous les ingrédients sont cochés) ;
 - les recettes **🟡 presque réalisables** (il ne manque qu'1 à 3
   ingrédients, listés) apparaissent ensuite.
+Sélectionnez une recette dans les résultats puis "📖 Consulter la recette
+sélectionnée" (ou double-cliquez dessus) pour l'ouvrir directement dans
+"Voir une recette précise".
 
 **📅 Planning de la semaine**
 La fenêtre se présente comme une **vraie grille calendrier** : les 7 jours de
@@ -600,9 +729,11 @@ lignes :
 - Déjeuner — Entrée, Déjeuner — Plat, Déjeuner — Dessert
 - Dîner — Entrée, Dîner — Plat, Dîner — Dessert
 
-Dans chaque case, choisissez une recette et le nombre de personnes (👤). La
-grille défile horizontalement et verticalement si la fenêtre est trop
-petite pour tout afficher.
+Dans chaque case, choisissez une recette et le nombre de personnes (👤). Les
+noms des jours de la semaine **restent toujours visibles en haut**, même en
+faisant défiler la grille vers le bas pour voir les créneaux de repas
+suivants. La grille défile horizontalement et verticalement si la fenêtre
+est trop petite pour tout afficher.
 
 "💾 Enregistrer le planning" sauvegarde vos choix pour la prochaine fois que
 vous ouvrez cette fenêtre. "🗑 Tout effacer" vide le planning. "📆 Exporter
@@ -615,8 +746,10 @@ dessert prévus. Une fois vos repas de la semaine choisis :
 - "Calculer la liste de courses de la semaine" additionne les ingrédients
   nécessaires pour tous les créneaux planifiés (tous jours et repas
   confondus), regroupés par rayon ;
-- les boutons "📝 Texte", "📊 Excel", "📄 PDF" et "🖨️ Imprimer" fonctionnent
-  comme pour la liste de courses classique.
+- le bouton "📤 Exporter" et "🖨️ Imprimer" fonctionnent comme pour la liste
+  de courses classique (voir "Toutes les recettes" plus haut), y compris la
+  possibilité de modifier une quantité, retirer un ingrédient, ou enregistrer
+  la liste pour plus tard.
 
 **📋 Mes menus**
 Créez et sauvegardez des combinaisons de plusieurs recettes (par exemple
@@ -626,9 +759,12 @@ une à une (avec leur nombre de personnes) via "+ Ajouter". La liste des
 recettes du menu s'affiche, avec un bouton "🗑 Retirer du menu". "💾
 Enregistrer le menu" sauvegarde la combinaison pour la retrouver plus tard
 dans la liste "Mes menus" (bouton "👁 Ouvrir" pour la rouvrir, "🗑 Supprimer"
-pour l'effacer). Comme pour le planning, vous pouvez calculer, exporter
-(texte/Excel/PDF) et imprimer la liste de courses du menu — les recettes y
-sont regroupées par catégorie (Apéro, Entrée, Plat, Sauce, Dessert, Boisson,
+pour l'effacer). Comme pour le planning, vous pouvez calculer la liste de
+courses du menu, l'exporter (bouton "📤 Exporter" : texte/Excel/PDF) et
+l'imprimer, modifier une quantité ou retirer un ingrédient directement dans
+la liste affichée, ajouter des ingrédients qui ne viennent d'aucune recette,
+et enregistrer/charger cette liste pour plus tard — les recettes y sont
+regroupées par catégorie (Apéro, Entrée, Plat, Sauce, Dessert, Boisson,
 Autre) dans l'ordre logique d'un repas.
 
 **📊 Statistiques**
@@ -654,6 +790,12 @@ livre" : le document commence par une page de sommaire, suivie d'une recette
 par page (photo, ingrédients pour le nombre de personnes par défaut de
 chaque recette, description, allergènes...) — pratique pour imprimer ou
 relier votre livre de recettes personnel, ou en offrir une version papier.
+**Toutes les pages sont numérotées** ("Page X / Y" en bas de chaque page),
+et le **sommaire indique le numéro de page de chaque recette** en face de
+son nom, pour retrouver rapidement une recette dans un livre imprimé —
+y compris pour les recettes dont le contenu déborde sur plusieurs pages
+(beaucoup d'ingrédients, longue description...), dont la pagination est
+prise en compte automatiquement.
 
 Toutes les recettes sont sauvegardées dans `recipes.json`, et les photos dans
 le dossier `images/`. Gardez toujours `main.py`, `recipes.json`,

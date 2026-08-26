@@ -6,6 +6,11 @@ Cette version ne nécessite RIEN d'autre à installer : ni Python, ni aucun
 module. Double-cliquez simplement sur MesRecettes.exe pour lancer
 l'application.
 
+Au tout premier lancement, une fenêtre affiche une clause de responsabilité
+(notamment sur la gestion des allergènes) que vous devez lire et accepter
+(case à cocher) pour pouvoir continuer. Cette étape n'apparaît qu'une seule
+fois ; votre acceptation est mémorisée automatiquement.
+
 
 --------------------------------------------------
 1. FICHIERS À GARDER ENSEMBLE
@@ -44,8 +49,10 @@ dossiers pour stocker vos données personnelles :
   ingredients.json        votre liste d'ingrédients personnelle
   ingredient_prices.json  les prix que vous aurez renseignés (facultatif)
   ingredient_custom_data.json  vos modifications d'ingrédients (facultatif)
+  ingredient_dismissed_pairs.json  doublons d'ingrédients ignorés (facultatif)
   weekly_plan.json        votre planning de la semaine
   menus.json              vos menus enregistrés
+  saved_shopping_lists.json  vos listes de courses enregistrées (facultatif)
   trash.json               la corbeille des recettes supprimées
   recent_views.json       l'historique des recettes récemment consultées
   settings.json            vos préférences (thème, dossier cloud...)
@@ -89,16 +96,24 @@ l'import de recette depuis un LIEN internet) n'ont besoin de rien de plus.
   photos, description, notes personnelles, allergènes, catégorie, temps,
   difficulté, favoris, note en étoiles)
 - Importer une recette depuis un lien internet ou depuis une photo
-- Liste de courses automatique à partir des recettes choisies (regroupée
-  par rayon de magasin), avec un mode "cocher au fur et à mesure"
-- Recherche par ingrédient (quelles recettes utilisent tel ingrédient ?)
+- Liste de courses construite recette par recette (bouton "Ajouter aux
+  courses"), modifiable ligne par ligne (quantité, suppression), avec
+  possibilité d'ajouter des articles qui ne viennent d'aucune recette, et
+  d'enregistrer/recharger une liste pour plus tard — regroupée par rayon de
+  magasin, avec un mode "cocher au fur et à mesure"
+- Recherche par ingrédient (quelles recettes utilisent tel ingrédient ?),
+  avec ouverture directe de la recette trouvée
 - Comparer deux recettes côte à côte
 - Filtre "je veux / je ne veux pas" certains ingrédients
+- Filtres rapides sur la page d'accueil (favoris, recettes rapides,
+  végétarien)
 - "Que puis-je cuisiner ?" à partir de ce que vous avez chez vous
-- Planning de la semaine en vue calendrier, avec export vers un calendrier
-  (.ics) qui se répète automatiquement chaque semaine
+- Planning de la semaine en vue calendrier (jours toujours visibles même en
+  faisant défiler), avec export vers un calendrier (.ics) qui se répète
+  automatiquement chaque semaine
 - Mes menus (combinaisons de plusieurs recettes)
-- Mode cuisine plein écran et minuteurs multiples réglables
+- Mode cuisine plein écran et minuteurs multiples réglables (avec alarme
+  sonore et clignotante)
 - QR code d'une recette, à scanner avec un téléphone
 - Journal de cuisine (notes et photos à chaque fois que vous cuisinez)
 - Coût et valeurs nutritionnelles estimés par recette
@@ -108,7 +123,8 @@ l'import de recette depuis un LIEN internet) n'ont besoin de rien de plus.
 - Sauvegardes automatiques périodiques, avec copie optionnelle vers un
   dossier cloud (Google Drive, OneDrive, Dropbox...)
 - Thème clair / sombre, au choix
-- Export d'un livre de recettes complet en PDF
+- Export d'un livre de recettes complet en PDF, avec pages numérotées et
+  numéro de page indiqué dans le sommaire
 
 Un bouton "☕ Faire un don" en haut à gauche de la page d'accueil ouvre la
 page https://buymeacoffee.com/majogari dans votre navigateur, si vous
