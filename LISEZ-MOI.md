@@ -810,30 +810,3 @@ projet — ou utilisez simplement l'export en .zip qui regroupe tout.
 > l'impression depuis là. Ce n'est qu'en cas d'échec total que l'application
 > vous indique simplement le chemin du PDF généré pour l'ouvrir vous-même.
 
-## 4. Transformer l'application en vrai fichier .exe Windows
-
-Le plus simple est d'utiliser le script `Construire_le_exe.bat` fourni (voir
-`DEMARRAGE_RAPIDE.md`) : il fait tout automatiquement, y compris copier
-`ingredients_par_defaut.json` au bon endroit. Si vous préférez le faire à la
-main, sur un PC Windows, dans le dossier du projet :
-
-```
-pip install pyinstaller pillow reportlab openpyxl qrcode pytesseract
-pyinstaller --onefile --windowed --name "MesRecettes" main.py
-```
-
-Le fichier `MesRecettes.exe` apparaît dans le dossier `dist/`. **Copiez
-`ingredients_par_defaut.json` dans ce même dossier `dist/`**, à côté du
-`.exe` — sans ce fichier juste à côté, la liste des ~1000 ingrédients
-courants ne pourra pas se charger. Déplacez ensuite le dossier `dist/`
-entier où vous voulez (Bureau, clé USB, autre PC...) ; l'application créera
-automatiquement à côté du `.exe`, au même endroit, `recipes.json`,
-`ingredients.json`, `images/` et les autres fichiers de données au fur et à
-mesure de son utilisation.
-
-## 5. Idées d'amélioration possibles
-- Multi-profils (plusieurs membres du foyer, chacun avec ses favoris/notes)
-- Substitutions d'ingrédients suggérées
-- Verrouillage de l'application par mot de passe
-
-N'hésitez pas à demander si vous voulez l'une de ces améliorations !
