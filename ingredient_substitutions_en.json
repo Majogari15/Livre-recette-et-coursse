@@ -1,0 +1,114 @@
+{
+  "beurre": [
+    {"nom": "Margarine", "note": "Same quantity, very close result."},
+    {"nom": "Vegetable oil", "note": "Reduce the quantity by about 25%."},
+    {"nom": "Applesauce", "note": "In cakes, for a lighter version."}
+  ],
+  "oeufs": [
+    {"nom": "Applesauce", "note": "About 60 g of applesauce per egg, in cakes."},
+    {"nom": "Ground flaxseed", "note": "1 tbsp ground + 3 tbsp water per egg, let sit for 5 min to thicken."}
+  ],
+  "lait": [
+    {"nom": "Almond milk", "note": "More neutral taste, slightly thinner."},
+    {"nom": "Soy milk", "note": "Good substitute for both cooking and drinking."},
+    {"nom": "Oat milk", "note": "Naturally slightly sweet."}
+  ],
+  "crème fraîche épaisse": [
+    {"nom": "Greek yogurt", "note": "Lighter, less rich in fat."},
+    {"nom": "Coconut cream", "note": "For a dairy-free version, adds a slight coconut flavor."}
+  ],
+  "farine": [
+    {"nom": "Rice flour", "note": "For a gluten-free version."},
+    {"nom": "Cornstarch", "note": "To thicken a sauce; does not replace flour for making a cake rise."},
+    {"nom": "Almond flour", "note": "Changes the texture and taste, denser and richer."}
+  ],
+  "sucre": [
+    {"nom": "Honey", "note": "Slightly reduce the recipe's liquid quantity (honey is moist)."},
+    {"nom": "Maple syrup", "note": "More pronounced taste, slightly reduce the recipe's liquid."},
+    {"nom": "Brown sugar", "note": "More caramelized taste, same quantity."}
+  ],
+  "levure chimique": [
+    {"nom": "Baking soda", "note": "Combine with an acidic ingredient (vinegar, lemon juice) for it to work."}
+  ],
+  "vin blanc": [
+    {"nom": "Vegetable broth", "note": "Add a little lemon juice to bring back the wine's acidity."}
+  ],
+  "vin rouge": [
+    {"nom": "Beef broth", "note": "Add a little balsamic vinegar for acidity and color."}
+  ],
+  "huile d'olive": [
+    {"nom": "Sunflower oil", "note": "More neutral taste."},
+    {"nom": "Rapeseed oil", "note": "Good source of omega-3, neutral taste."}
+  ],
+  "yaourt nature": [
+    {"nom": "Fromage blanc", "note": "A bit denser, slightly less tangy."},
+    {"nom": "Light thick crème fraîche", "note": "Richer, use in a slightly smaller amount."}
+  ],
+  "parmesan": [
+    {"nom": "Pecorino", "note": "Saltier and more pronounced taste."},
+    {"nom": "Nutritional yeast", "note": "For a vegan version, brings a similar umami taste."}
+  ],
+  "chapelure": [
+    {"nom": "Rolled oats", "note": "Roughly blend before use."},
+    {"nom": "Rusk", "note": "Crumble finely."}
+  ],
+  "moutarde": [
+    {"nom": "Horseradish", "note": "Spicier, use sparingly."},
+    {"nom": "Turmeric", "note": "Combine with a little vinegar to bring back the acidity."}
+  ],
+  "ail": [
+    {"nom": "Garlic powder", "note": "About 1/8 tsp per fresh garlic clove."},
+    {"nom": "Shallot", "note": "Milder, sweeter taste."}
+  ],
+  "oignon": [
+    {"nom": "Shallot", "note": "Milder taste, cooks faster."},
+    {"nom": "Leek", "note": "Use the white part, more delicate taste."}
+  ],
+  "citron": [
+    {"nom": "White vinegar", "note": "For acidity only, without the citrus flavor."},
+    {"nom": "Lime", "note": "Slightly sharper taste."}
+  ],
+  "vinaigre balsamique": [
+    {"nom": "Red wine vinegar", "note": "Add a pinch of sugar to bring back the slightly sweet side."}
+  ],
+  "cube de bouillon": [
+    {"nom": "Dehydrated vegetable broth", "note": "Same use, often less salty."},
+    {"nom": "Soy sauce", "note": "Diluted in water, adds salty umami flavor."}
+  ],
+  "crème liquide entière": [
+    {"nom": "Unsweetened condensed milk", "note": "A bit less rich, but a similar texture."},
+    {"nom": "Coconut cream", "note": "For a dairy-free version."}
+  ],
+  "mascarpone": [
+    {"nom": "Fresh cheese", "note": "Mix with a little thick crème fraîche for richness."}
+  ],
+  "chocolat noir": [
+    {"nom": "Cocoa powder", "note": "Mix with butter and sugar to get a similar texture."}
+  ],
+  "amandes": [
+    {"nom": "Hazelnut", "note": "More pronounced taste."},
+    {"nom": "Cashew nut", "note": "Milder, creamier taste."}
+  ],
+  "riz": [
+    {"nom": "Quinoa", "note": "Higher in protein, slightly different texture."},
+    {"nom": "Bulgur", "note": "Shorter cooking time."}
+  ],
+  "pâtes": [
+    {"nom": "Rice", "note": "For a gluten-free version."},
+    {"nom": "Rice noodles", "note": "For a gluten-free version, quicker cooking."}
+  ],
+  "sucre vanillé": [
+    {"nom": "Vanilla extract", "note": "A few drops are enough, add to regular sugar."}
+  ],
+  "miel": [
+    {"nom": "Maple syrup", "note": "Different taste but similar texture."},
+    {"nom": "Sugar", "note": "Add a bit more liquid to compensate (honey is moist)."}
+  ],
+  "fromage blanc": [
+    {"nom": "Plain yogurt", "note": "A bit more liquid."}
+  ],
+  "sauce soja": [
+    {"nom": "Tamari", "note": "For a gluten-free version, very similar taste."},
+    {"nom": "Salt", "note": "Diluted in a little water; the umami flavor will be less present."}
+  ]
+}

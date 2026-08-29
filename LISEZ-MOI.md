@@ -17,6 +17,19 @@ thème sombre disponible en un clic.
 - `ingredient_allergenes.json` : base des allergènes présents dans les
   ~1000 ingrédients courants, fournie avec l'application (voir la section
   "Détection automatique des allergènes" plus bas)
+- `ingredient_substitutions.json` : base d'une trentaine de substitutions
+  culinaires courantes fournie avec l'application (voir "🔄 Gérer les
+  substitutions" plus bas)
+- `ingredient_translations_en.json` / `ingredient_translations_es.json` /
+  `ingredient_translations_de.json` : traduction anglaise / espagnole /
+  allemande des ~1000 ingrédients courants, fournies avec l'application,
+  pour l'affichage multilingue (voir "🌐 Changer de langue" plus bas)
+- `ingredient_substitutions_en.json` / `ingredient_substitutions_es.json` /
+  `ingredient_substitutions_de.json` : traduction anglaise / espagnole /
+  allemande de la base de substitutions ci-dessus
+- `flag_fr.png` / `flag_uk.png` / `flag_es.png` / `flag_de.png` : icônes de
+  drapeaux pour le menu déroulant de langue de la page d'accueil et de la
+  clause de responsabilité
 - `recipes.json` : créé automatiquement dès que vous enregistrez votre
   première recette (votre base de données de recettes)
 - `ingredients.json` : créé automatiquement, contient la liste des
@@ -34,6 +47,8 @@ thème sombre disponible en un clic.
 - `menus.json` : créé automatiquement, contient vos menus enregistrés
 - `saved_shopping_lists.json` : créé automatiquement si vous enregistrez une
   liste de courses pour plus tard
+- `pantry.json` : créé automatiquement si vous renseignez le contenu de
+  votre garde-manger (voir "📦 Mon garde-manger")
 - `trash.json` : créé automatiquement, contient les recettes envoyées à la
   corbeille
 - `recent_views.json` : créé automatiquement, mémorise vos dernières
@@ -46,12 +61,20 @@ thème sombre disponible en un clic.
 - `images/` : créé automatiquement, contient les photos de vos recettes et
   de votre journal de cuisine
 
-> ⚠️ Important : gardez `ingredients_par_defaut.json`, `valeurs_nutritionnelles.json`
-> **et** `ingredient_allergenes.json` dans le même dossier que `main.py` (et
-> à côté du `.exe` si vous en générez un). Le premier permet de pré-remplir la
-> liste des ~1000 ingrédients courants, le deuxième sert à l'estimation des
-> valeurs nutritionnelles, le troisième à la détection automatique des
-> allergènes.
+> ⚠️ Important : gardez `ingredients_par_defaut.json`, `valeurs_nutritionnelles.json`,
+> `ingredient_allergenes.json`, `ingredient_substitutions.json`,
+> `ingredient_translations_en.json`, `ingredient_translations_es.json`,
+> `ingredient_translations_de.json`, `ingredient_substitutions_en.json`,
+> `ingredient_substitutions_es.json`, `ingredient_substitutions_de.json`
+> **et** les quatre fichiers `flag_*.png` dans le même dossier que `main.py`
+> (et à côté du `.exe` si vous en générez un). Les quatre premiers
+> permettent de pré-remplir la liste des ~1000 ingrédients courants,
+> l'estimation des valeurs nutritionnelles, la détection automatique des
+> allergènes et les suggestions de substituts culinaires ; les six
+> suivants fournissent les traductions anglaise, espagnole et allemande
+> des ingrédients et des substituts ; les quatre derniers sont les icônes
+> du menu déroulant de langue. Sans eux, l'application fonctionne quand
+> même mais avec un contenu en moins (voir "🌐 Changer de langue" plus bas).
 
 ## 1. Installer les dépendances
 
@@ -64,7 +87,7 @@ une photo. Ouvrez une invite de commandes dans le dossier du projet et
 tapez :
 
 ```
-pip install pillow reportlab openpyxl qrcode pytesseract
+pip install pillow reportlab openpyxl qrcode pytesseract pyttsx3
 ```
 
 - **pillow** : permet d'afficher les photos des recettes et les QR codes
@@ -73,6 +96,10 @@ pip install pillow reportlab openpyxl qrcode pytesseract
 - **qrcode** : permet d'exporter une recette sous forme de QR code
 - **pytesseract** : permet d'importer une recette depuis une photo (OCR) —
   voir l'encadré ci-dessous, une étape supplémentaire est nécessaire
+- **pyttsx3** : permet la lecture à voix haute de la description en "Mode
+  cuisine" — s'appuie sur la synthèse vocale déjà installée sur votre
+  système (aucune installation supplémentaire à faire, contrairement à
+  Tesseract OCR ci-dessous)
 
 Si vous ne les installez pas, l'application fonctionne quand même, mais sans
 les fonctionnalités correspondantes (un message vous le rappelle au
@@ -82,17 +109,28 @@ internet, eux, fonctionnent toujours sans dépendance supplémentaire.
 > ⚠️ **Cas particulier de l'import depuis une photo** : contrairement aux
 > autres modules ci-dessus, `pytesseract` ne fait que *piloter* un
 > programme externe appelé **Tesseract OCR**, qui doit être installé
-> séparément sur votre PC (ce n'est pas un simple `pip install`) :
+> séparément sur votre PC (ce n'est pas un simple `pip install`). La
+> reconnaissance de texte se fait dans la langue actuellement
+> sélectionnée dans l'interface (voir "🌐 Changer de langue" plus bas) :
+> installez le paquet linguistique correspondant à la langue dans
+> laquelle sont rédigées les photos que vous comptez importer (ou tous
+> les paquets, pour ne jamais avoir à y repenser) :
 > - **Windows** : téléchargez l'installateur depuis
->   https://github.com/UB-Mannheim/tesseract/wiki, installez-le (cochez la
->   langue française si proposée), puis redémarrez l'application.
-> - **macOS** : `brew install tesseract tesseract-lang` (via Homebrew).
-> - **Linux** : `sudo apt install tesseract-ocr tesseract-ocr-fra` (Debian/
+>   https://github.com/UB-Mannheim/tesseract/wiki, installez-le (cochez
+>   les langues souhaitées parmi français/anglais/espagnol/allemand si
+>   proposées), puis redémarrez l'application.
+> - **macOS** : `brew install tesseract tesseract-lang` (via Homebrew,
+>   installe toutes les langues d'un coup).
+> - **Linux** : `sudo apt install tesseract-ocr tesseract-ocr-fra
+>   tesseract-ocr-eng tesseract-ocr-spa tesseract-ocr-deu` (Debian/
 >   Ubuntu) ou l'équivalent pour votre distribution.
 >
 > Sans Tesseract OCR installé, le bouton "📷 Importer une recette depuis une
 > photo" reste accessible mais affiche un message clair vous renvoyant à ces
-> instructions plutôt que de planter.
+> instructions plutôt que de planter. Si le paquet linguistique de la
+> langue actuellement sélectionnée dans l'interface n'est pas installé,
+> l'extraction échoue avec un message d'erreur plutôt qu'un résultat
+> incorrect.
 
 ## 2. Lancer l'application
 
@@ -125,6 +163,14 @@ python main.py
 
 ## 3. Comment ça marche
 
+**🔍 Recherche rapide (Ctrl+K)**
+Appuyez sur **Ctrl+K** à tout moment, depuis n'importe quelle fenêtre de
+l'application, pour ouvrir une petite fenêtre de recherche rapide de
+recette — pratique pour sauter directement à une recette sans revenir à la
+page d'accueil. Tapez quelques lettres, utilisez les flèches pour naviguer
+dans les résultats, Entrée pour ouvrir la recette sélectionnée (ou la
+première si aucune n'est sélectionnée), Échap pour fermer.
+
 **⚠ Clause de responsabilité (au tout premier lancement)**
 Avant de pouvoir utiliser l'application pour la première fois, une fenêtre
 affiche une clause de responsabilité (notamment sur la gestion des
@@ -147,22 +193,146 @@ vous ouvrez ensuite adoptent immédiatement le thème choisi ; si une fenêtre
 secondaire était déjà ouverte au moment de la bascule, refermez-la et
 rouvrez-la pour qu'elle reflète pleinement le nouveau thème.
 
-Trois **filtres rapides** ("⭐ Favoris", "⏱️ Rapide (≤ 30 min)",
-"🥗 Végétarien") ouvrent directement "Modifier / Supprimer une recette" avec
-la liste déjà filtrée, sans avoir à passer par la recherche manuelle. Le
-filtre "Végétarien" se base sur l'étiquette "végétarien"/"végétarienne" que
-vous avez éventuellement ajoutée à vos recettes. Un bouton "✕ Retirer le
-filtre" apparaît dans la fenêtre pour revenir à la liste complète.
+Juste à côté, le bouton **"🔎 Texte agrandi" / "🔎 Texte normal"**
+(accessibilité, pratique en cas de malvoyance) agrandit d'environ 30 %
+toutes les tailles de police de l'application, **et adapte automatiquement
+la taille de toutes les fenêtres en conséquence** pour qu'aucun bouton ou
+texte ne se retrouve coupé ou masqué par du contenu devenu plus grand.
+Votre choix est mémorisé automatiquement. Comme pour le thème, la page
+d'accueil et toute nouvelle fenêtre ouverte ensuite adoptent immédiatement
+le nouveau réglage ; une fenêtre secondaire déjà ouverte au moment de la
+bascule doit être refermée puis rouverte pour en profiter pleinement, elle
+aussi à sa nouvelle taille adaptée.
+
+**🌐 Changer de langue** — le menu déroulant en haut à droite de la page
+d'accueil (affichant la langue actuelle avec sa vraie icône de drapeau)
+propose un choix direct entre les quatre langues disponibles pour toute
+l'interface : page d'accueil, chaque fenêtre, chaque message d'erreur ou
+de confirmation, y compris le texte légal de la clause de
+responsabilité. D'autres langues pourront être ajoutées de la même façon
+par la suite. Votre choix est mémorisé automatiquement, avec le même
+fonctionnement que le thème et le texte agrandi (une fenêtre secondaire
+déjà ouverte doit être refermée puis rouverte pour refléter le
+changement).
+
+Au tout premier lancement (avant qu'aucune préférence n'ait jamais été
+enregistrée), l'application démarre dans la langue de votre système
+d'exploitation si elle est reconnue (anglais, espagnol, allemand ou
+français), au lieu de toujours démarrer en français. Ensuite, votre
+choix — qu'il vienne de cette détection ou d'une sélection manuelle — est
+toujours respecté et n'est plus jamais écrasé automatiquement.
+
+Les ~1000 ingrédients courants de la liste par défaut (fichiers
+`ingredient_translations_en.json`, `ingredient_translations_es.json` et
+`ingredient_translations_de.json`) s'affichent eux aussi dans la langue
+choisie — dans les recettes, le garde-manger, les listes de courses et
+leurs exports. La donnée réelle reste toujours en français en interne
+(recherche, tri, allergènes, prix, substituts...), donc rien ne change
+dans vos données. Un ingrédient personnalisé sans traduction connue
+s'affiche simplement dans son nom français d'origine.
+
+**Les champs de saisie sont désormais bilingues** (français ou langue
+choisie) : dans le formulaire de recette, le garde-manger, "Ajouter des
+ingrédients à la liste de courses", "Gérer les substitutions" et les
+filtres par ingrédient de "Voir toutes les recettes", vous pouvez taper
+le nom en français OU dans la langue actuellement sélectionnée (les
+suggestions proposées s'affichent aussi dans cette langue) — la
+correspondance vers vos données (toujours en français en interne) se
+fait automatiquement. Limite à connaître : quelques mots traduits
+correspondent à plusieurs ingrédients français différents (ex. « peanut »
+pour « Arachide » et « Cacahuète » en anglais) ; dans ce cas, un seul des
+deux est reconnu par la saisie traduite (le nom le plus court, par
+convention) — l'autre reste accessible en tapant directement son nom
+français.
+
+Sont également traduits à l'affichage lorsqu'une autre langue est
+choisie (la donnée réelle reste toujours en français en interne) :
+- les **rayons de courses** (Fruits & légumes, Boucherie, Crèmerie...),
+  dans les listes de courses et tous leurs exports (texte, Excel, PDF) ;
+- les **catégories** (Entrée, Plat, Dessert...) et **difficultés**
+  (Facile, Moyen, Difficile), partout où une recette est listée,
+  comparée ou exportée, y compris dans le formulaire d'ajout/modification
+  (le menu déroulant reste sans ambiguïté, contrairement aux ingrédients,
+  car c'est une liste fermée) ;
+- les **allergènes** (Gluten, Lactose, Œufs...), dans les recettes, les
+  cases à cocher du formulaire, l'export PDF et les messages de
+  détection automatique ;
+- les **substituts d'ingrédients** fournis avec l'application (nom et
+  note explicative), affichés dans "Substituts possibles" — vos propres
+  substituts personnalisés, eux, restent toujours dans la langue où vous
+  les avez tapés, jamais traduits automatiquement ;
+- les **jours de la semaine et créneaux de repas** (Petit-déjeuner,
+  Déjeuner — Plat...), dans le planning, son historique, et l'export
+  calendrier (.ics) — la structure de stockage du planning
+  (`weekly_plan.json`) reste toujours indexée en français en interne,
+  seul l'affichage change ;
+- les **options de tri des recettes** (Nom, Temps de préparation,
+  Difficulté, Note, Ajoutées récemment) ;
+- les **unités de mesure** des ingrédients (pièce, cuillère à soupe,
+  cuillère à café...) — les unités du système métrique (g, kg, cl, L)
+  utilisent le même symbole dans toutes les langues, donc rien ne change
+  pour elles ; le calcul du coût d'une recette (qui compare l'unité
+  d'une recette à celle d'un prix renseigné) continue de fonctionner
+  normalement quelle que soit la langue dans laquelle chacune a été
+  saisie.
+
+Notez enfin que vos recettes elles-mêmes (noms, descriptions, notes que
+vous avez saisis) ne sont pas traduites automatiquement : seule
+l'interface du programme (et le contenu couvert ci-dessus) change de
+langue.
+
+Quatre **filtres rapides** ("⭐ Favoris", "⏱️ Rapide (≤ 30 min)",
+"🥗 Végétarien", "💭 Envies") ouvrent directement "Modifier / Supprimer une
+recette" avec la liste déjà filtrée, sans avoir à passer par la recherche
+manuelle. Le filtre "Végétarien" se base sur l'étiquette
+"végétarien"/"végétarienne" (ou son équivalent dans l'une des 3 autres
+langues disponibles : "vegetarian", "vegetariano"/"vegetariana",
+"vegetarisch") que vous avez éventuellement ajoutée à vos recettes, et
+"Envies" sur la case "💭 Ajouter à ma liste d'envies" du formulaire de
+recette. Un bouton "✕ Retirer le filtre" apparaît dans la fenêtre pour
+revenir à la liste complète.
+
+**🎲 Recette du jour** : juste sous la bannière, une recette est mise en
+avant chaque jour, tirée au sort parmi **toutes** vos recettes (pas
+seulement la liste d'envies). Elle reste la même toute la journée, même si
+vous rouvrez l'application plusieurs fois, et change automatiquement le
+lendemain. Cliquez sur "👁 Ouvrir" pour la consulter directement.
+
+**💭 Rappel liste d'envies** : si au moins une recette est dans votre liste
+d'envies depuis plus de 90 jours, un bandeau apparaît sur la page d'accueil
+("💭 X recette(s) en liste d'envies depuis plus de 90 jours — et si vous les
+essayiez ?") — cliquez dessus pour voir directement ces recettes.
+
+**📦 Rappel garde-manger** : si un ou plusieurs articles de votre garde-manger
+(voir "📦 Mon garde-manger" plus bas) sont passés sous le seuil d'alerte que
+vous avez défini, un bandeau les liste sur la page d'accueil — cliquez
+dessus pour ouvrir "Toutes les recettes" avec ces articles déjà ajoutés à
+la liste de courses (la quantité suggérée correspond au seuil d'alerte que
+vous avez indiqué).
 
 En plus des boutons donnant accès à toutes les fonctionnalités, la page
-d'accueil affiche deux sections pratiques :
+d'accueil affiche trois sections pratiques :
 - **"📅 Aujourd'hui"** : si vous avez rempli le planning de la semaine, les
   repas prévus pour aujourd'hui (petit-déjeuner, déjeuner, dîner) s'affichent
   directement ici, avec un bouton "👁" pour ouvrir chaque recette en un clic ;
 - **"🕘 Récemment consultées"** : les 8 dernières recettes que vous avez
   affichées dans "Voir une recette précise" (la plus récente en haut, sans
   doublon). Sélectionnez-en une puis "👁 Ouvrir" (ou double-cliquez dessus)
-  pour la rouvrir directement, sans avoir à la rechercher.
+  pour la rouvrir directement, sans avoir à la rechercher ;
+- **"💭 Recettes à essayer"** : un tirage au sort d'une dizaine de recettes
+  parmi celles de votre liste d'envies (voir "💭 Ajouter à ma liste
+  d'envies" dans le formulaire de recette), pour redécouvrir une idée
+  oubliée. "🎲 Nouveau tirage" en propose 10 autres au hasard, et "👁 Ouvrir"
+  (ou double-clic) ouvre la recette sélectionnée.
+
+**🔄 Convertisseur d'unités**
+Un petit outil indépendant, accessible directement depuis la page d'accueil,
+pour convertir une quantité entre unités (grammes, kilogrammes, onces,
+livres, millilitres, centilitres, litres, cuillères, tasse US) — pratique
+pour une recette trouvée ailleurs avec des unités différentes des vôtres.
+La conversion entre unités de volume et de poids se base sur la densité de
+l'eau : fiable pour les liquides, approximative pour des solides comme la
+farine ou le sucre (dont la densité réelle diffère légèrement).
 
 **🥕 Gérer les ingrédients**
 Un cinquième bouton permet de gérer la liste des ingrédients réutilisables :
@@ -258,6 +428,39 @@ partir de la base `valeurs_nutritionnelles.json` fournie avec l'application
 (environ 1000 ingrédients) — sans rien à configurer de votre côté pour la
 nutrition, contrairement au coût.
 
+**🔄 Gérer les substitutions (dans "Gérer les ingrédients")**
+Une trentaine de substitutions culinaires courantes sont fournies avec
+l'application (ex. beurre → margarine, œufs → compote de pommes, farine →
+farine de riz...), chacune avec une petite note de contexte. Recherchez un
+ingrédient dans la liste (ou tapez son nom dans le champ en bas, y compris
+un ingrédient sans substitut connu pour l'instant), double-cliquez dessus
+(ou "✏️ Gérer ses substituts") pour voir/modifier sa liste : dans le champ
+"Nom", tapez les premières lettres pour faire apparaître une liste de
+suggestions parmi vos ingrédients (comme partout ailleurs dans
+l'application), puis "➕ Ajouter à la liste" pour proposer ce nouveau
+substitut (avec une note facultative), "🗑 Retirer le substitut
+sélectionné" pour en retirer un, puis "💾 Enregistrer" pour valider vos
+changements. Si l'ingrédient a des substituts fournis par l'application,
+"🔄 Revenir à la base fournie" annule votre liste personnalisée et rétablit
+les substituts d'origine.
+
+> ⚠️ Une substitution est **un conseil culinaire, pas une équivalence
+> garantie** : un même substitut peut très bien fonctionner dans un gâteau
+> et être décevant dans une sauce. Utilisez ces suggestions comme point de
+> départ, pas comme une certitude.
+
+Ces substituts apparaissent ensuite à deux endroits :
+- **"Voir une recette précise"** : le bouton "🔄 Substituts possibles"
+  affiche, pour chaque ingrédient de la recette affichée ayant un substitut
+  connu, la liste de ses alternatives avec leurs notes ;
+- **"Que puis-je cuisiner ?"** : une recette à qui il manque 1 à 3
+  ingrédients passe automatiquement dans une nouvelle catégorie **"🔄
+  Réalisables en utilisant un substitut"** si **tous** les ingrédients
+  manquants ont un substitut déjà présent dans votre "Ce que j'ai" — avec
+  le détail de quel substitut remplace quel ingrédient manquant. Si
+  seulement certains des ingrédients manquants ont un substitut
+  disponible (pas tous), la recette reste dans "🟡 Presque".
+
 Dans les deux cas, si certains ingrédients de la recette n'ont pas de prix
 renseigné (pour le coût) ou ne sont pas reconnus dans la base nutritionnelle
 (par exemple un ingrédient que vous avez créé vous-même), une mention
@@ -339,7 +542,10 @@ droite les allergènes ; plus bas, les ingrédients à gauche et la
 description/notes personnelles à droite. La fenêtre s'ouvre à la hauteur de
 votre écran pour afficher un maximum de contenu d'un coup.
 
-Donnez un nom, cochez éventuellement "⭐ Marquer comme recette favorite" et
+Donnez un nom, cochez éventuellement "⭐ Marquer comme recette favorite" et/ou
+"💭 Ajouter à ma liste d'envies (à essayer)" — cette dernière sert à repérer
+les recettes qui vous font envie mais que vous n'avez encore jamais
+cuisinées (voir plus bas "💭 Liste d'envies" pour le rappel automatique) — et
 notez la recette avec **1 à 5 étoiles cliquables** ("Ma note" — cliquer sur
 une étoile déjà sélectionnée remet la note à zéro). Choisissez une catégorie
 (**Entrée**, **Plat**, **Dessert**, **Apéro**, **Boisson**, **Sauce** ou
@@ -353,7 +559,9 @@ Le champ **Étiquettes** (séparées par des virgules, ex. "végétarien, sans
 gluten, rapide, économique") permet d'ajouter vos propres mots-clés libres,
 en plus de la catégorie fixe. Elles sont reconnues par toutes les barres de
 recherche de l'application (taper une étiquette dans "🔍 Rechercher" retrouve
-aussi les recettes qui la portent).
+aussi les recettes qui la portent). Une étiquette tapée deux fois avec une
+casse différente (ex. "rapide" et "Rapide") est automatiquement fusionnée en
+une seule à l'enregistrement, en conservant la première graphie saisie.
 
 Les cases à cocher **Allergènes présents** (Gluten, Lactose, Œufs,
 Arachides, Fruits à coque, Soja, Poisson, Crustacés, Sésame, Céleri,
@@ -416,6 +624,14 @@ immédiatement dans les menus déroulants. Le bouton "+ Ajouter un ingrédient"
 et le bouton "Enregistrer" restent toujours juste en dessous du dernier
 ingrédient ajouté, où que vous en soyez dans le formulaire.
 
+Si le même ingrédient se retrouve sur plusieurs lignes au moment
+d'enregistrer (ligne ajoutée deux fois par erreur, copier-coller...), un
+message vous le signale et vous demande si vous voulez enregistrer quand
+même — utile pour repérer une saisie en double, tout en laissant la
+possibilité de continuer si c'est volontaire (par exemple un même
+ingrédient utilisé à deux quantités différentes à deux endroits distincts
+de la recette).
+
 > Remarque : les recettes créées avant cette mise à jour avec les anciennes
 > unités (kg, L...) sont automatiquement reconverties à l'ouverture : "g"
 > devient "Gr", "cl" reste "cl", et tout le reste (kg, L, etc.) passe en
@@ -428,7 +644,8 @@ ingrédient ajouté, où que vous en soyez dans le formulaire.
 > classés avec les mots en "e" plutôt qu'à la fin de la liste.
 
 **🧾 Voir toutes les recettes (liste de courses)**
-Une **barre de recherche** et un menu **"Trier par :"** permettent de
+Une **barre de recherche**, un menu **"Trier par :"** et un menu
+**"Catégorie :"** permettent de
 retrouver et d'organiser rapidement la liste des recettes affichées (utile si
 vous en avez beaucoup). Un encadré **"Filtrer par ingrédient"** permet
 d'affiner davantage : cliquez dans un champ et **tapez les premières
@@ -439,7 +656,11 @@ un ingrédient dans le formulaire de recette.
   contiennent **tous** les ingrédients choisis restent affichées ;
 - **"Je ne veux pas :"** — jusqu'à 2 ingrédients ; les recettes contenant
   **l'un ou l'autre** de ces ingrédients sont masquées ;
-- "Réinitialiser" vide les 4 champs et réaffiche toutes les recettes.
+- **"Étiquettes (toutes requises) :"** — jusqu'à 2 étiquettes (parmi celles
+  déjà utilisées dans vos recettes) ; seules les recettes portant **toutes**
+  les étiquettes choisies restent affichées — pratique pour combiner par
+  exemple "rapide" et "végétarien" à la fois ;
+- "Réinitialiser" vide les 6 champs et réaffiche toutes les recettes.
 
 Ces filtres se combinent avec la barre de recherche (une recette doit
 satisfaire toutes les conditions actives pour rester affichée) — pratique
@@ -565,15 +786,22 @@ et les informations (allergènes, coût, nutrition), à droite la description
 et les notes personnelles. Les boutons d'action sont alignés en rangées de
 4 pour un accès rapide.
 
-Une **barre de recherche** et un menu **"Trier :"** (Nom, Temps de
-préparation, Difficulté, Note, Ajoutées récemment) permettent de retrouver
+Une **barre de recherche**, un menu **"Trier :"** (Nom, Temps de
+préparation, Difficulté, Note, Ajoutées récemment) et un menu
+**"Catégorie :"** permettent de retrouver
 rapidement une recette (là aussi, les favorites sont marquées d'une ⭐, et la
 note éventuelle s'affiche en étoiles à côté du nom ; la recherche reconnaît
-aussi les étiquettes). Sélectionnez une recette dans la liste — le nombre de
-personnes se préremplit automatiquement avec la valeur par défaut de la
-recette — puis "Afficher la recette" pour voir sa galerie de photos, sa note,
-son temps de préparation/cuisson, sa difficulté, ses ingrédients recalculés,
-sa description et vos notes personnelles.
+aussi les étiquettes). Cliquez sur une recette dans la liste pour la
+sélectionner (elle est surlignée) — le nombre de personnes se préremplit
+automatiquement avec la valeur par défaut de la recette — puis "Afficher la
+recette" pour voir sa galerie de photos, sa note, son temps de
+préparation/cuisson, sa difficulté, ses ingrédients recalculés, sa
+description et vos notes personnelles (un double-clic sur une recette
+l'affiche directement, sans étape intermédiaire). Le bouton "✏️ Modifier" en
+face de chaque recette (comme sur "Toutes les recettes") ouvre directement
+son formulaire d'édition, sans avoir à passer par "Modifier / Supprimer une
+recette" — si vous modifiez la recette actuellement affichée, l'affichage se
+met à jour automatiquement après enregistrement.
 
 Une fois une recette affichée, ajustez rapidement les portions avec les
 boutons **−1 / +1 / ÷2 / ×2** à côté du nombre de personnes : l'affichage se
@@ -593,10 +821,12 @@ met à jour immédiatement, sans avoir à retaper le nombre ni recliquer sur
   que de tout sélectionner d'un coup.
 - "🍳 J'ai cuisiné ça !" incrémente un compteur "nombre de fois cuisinée" pour
   cette recette (visible dans les Statistiques) et enregistre la date du
-  jour. Une petite fenêtre s'ouvre ensuite pour ajouter, si vous le
-  souhaitez, une **note** (ex. "un peu trop salé, réduire le sel") et/ou une
-  **photo** du résultat — ou cliquez simplement sur "Passer" pour ignorer
-  cette étape.
+  jour. Si vous tenez un "📦 Mon garde-manger", on vous propose de décompter
+  les ingrédients de cette recette (au nombre de personnes actuellement
+  affiché) de votre stock. Une petite fenêtre s'ouvre ensuite pour ajouter,
+  si vous le souhaitez, une **note** (ex. "un peu trop salé, réduire le
+  sel") et/ou une **photo** du résultat — ou cliquez simplement sur "Passer"
+  pour ignorer cette étape.
 - "📔 Journal de cuisine" affiche l'historique de toutes vos notes et photos
   pour cette recette (la plus récente en premier), avec le nombre total de
   fois cuisinée — pratique pour se souvenir de ce qui a marché (ou pas) la
@@ -604,10 +834,23 @@ met à jour immédiatement, sans avoir à retaper le nombre ni recliquer sur
 - "🖥️ Mode cuisine (plein écran)" ouvre la recette dans une fenêtre maximisée,
   en très gros caractères, sans menus ni distractions — pratique à lire posé
   à côté des fourneaux. Les boutons "−" et "+" en haut à gauche ajustent le
-  nombre de personnes sans quitter ce mode. Appuyez sur **Échap** ou cliquez
-  sur "✕ Fermer" pour revenir à l'écran normal, ou sur **F11** pour basculer
-  en plein écran natif (masque complètement la barre des tâches) si vous le
-  souhaitez.
+  nombre de personnes sans quitter ce mode, "🍳 J'ai cuisiné ça !" en haut
+  à droite fonctionne exactement comme son équivalent dans "Voir une recette
+  précise" (compteur, garde-manger, journal de cuisine), pour ne pas avoir à
+  quitter le mode cuisine juste pour enregistrer que vous venez de cuisiner,
+  et **"🔊 Lire à voix haute"** lit la description de la recette à voix haute
+  (nécessite le module `pyttsx3`, voir "1. Installer les dépendances" —
+  pratique les mains occupées ou sales) ; cliquez de nouveau dessus
+  ("⏹ Arrêter la lecture") pour l'interrompre à tout moment (repart du
+  début à la prochaine lecture, la lecture ne peut pas reprendre là où
+  elle s'est arrêtée). Les boutons "🔉−" et "🔊+" à côté ajustent le
+  volume de la lecture par pas de 10 % (affiché en pourcentage entre les
+  deux). Comme les recettes n'ont qu'une description en texte libre (pas
+  d'étapes séparées), toute la description est lue d'une traite plutôt
+  qu'étape par étape. Appuyez sur **Échap** ou cliquez sur "✕ Fermer" pour
+  revenir à l'écran normal, ou sur **F11** pour basculer en plein écran
+  natif (masque complètement la barre des tâches)
+  si vous le souhaitez.
 - "📱 QR Code" génère un QR code contenant le nom et les ingrédients de la
   recette (adaptés au nombre de personnes affiché), à scanner avec
   l'appareil photo d'un téléphone pour l'emporter sans imprimer ni
@@ -630,11 +873,22 @@ met à jour immédiatement, sans avoir à retaper le nombre ni recliquer sur
   cours. **Quand un minuteur arrive à zéro, sa ligne clignote en rouge et un
   signal sonore retentit** jusqu'à ce que vous cliquiez dessus (ou que vous
   le redémarriez/réinitialisiez) pour arrêter l'alarme.
+- "🔄 Substituts possibles" affiche, pour chaque ingrédient de la recette
+  ayant un substitut connu (voir "🔄 Gérer les substitutions" plus bas), la
+  liste de ses alternatives avec leurs notes de contexte.
+
+Tout en bas, une section **"Recettes similaires"** suggère jusqu'à 5 autres
+recettes proches de celle affichée (même catégorie, étiquettes en commun,
+ingrédients en commun), classées de la plus à la moins proche — cliquez sur
+l'une d'elles pour l'ouvrir directement, sans repasser par la recherche.
+Cette section ne s'affiche que s'il existe au moins une recette
+suffisamment proche.
 
 **✏️ Modifier / Supprimer une recette**
-Une **barre de recherche** et un menu **"Trier par :"** filtrent et
-organisent la liste (avec favoris ⭐ et note en étoiles affichés). Sélectionnez
-une recette puis :
+Une **barre de recherche**, un menu **"Trier par :"** et un menu
+**"Catégorie :"** (Toutes, Petit-déjeuner, Entrée, Plat, Dessert, Apéro,
+Boisson, Sauce, Autre) filtrent et organisent la liste (avec favoris ⭐ et
+note en étoiles affichés). Sélectionnez une recette puis :
 - "✏️ Modifier" ouvre le même formulaire que pour l'ajout, pré-rempli, pour
   changer le nom, les photos, le temps, la difficulté, la note, les notes
   personnelles ou les ingrédients ;
@@ -660,21 +914,30 @@ leur date de suppression, et permet :
   (irréversible, avec confirmation).
 
 **💾 Importer / Exporter les données**
-- "📤 Exporter toutes mes données" enregistre un fichier `.zip` contenant vos
-  recettes, vos ingrédients et vos photos — pratique pour faire une
-  sauvegarde ou transférer vos données vers un autre ordinateur.
+- "📤 Exporter toutes mes données" enregistre un fichier `.zip` contenant
+  **absolument toutes vos données** : recettes, photos, ingrédients
+  personnalisés (allergènes/nutrition/substituts modifiés), prix
+  d'ingrédients, garde-manger, planning de la semaine et son historique,
+  modèles de semaine, menus, listes de courses enregistrées, corbeille,
+  historique des recettes récemment consultées et réglages — un seul
+  fichier pour tout sauvegarder ou tout transférer vers un autre
+  ordinateur, sans avoir à passer par GitHub ou un dossier cloud.
 - "📥 Importer des données" lit un fichier `.zip` exporté précédemment. On
   vous demande alors :
-  - **Fusionner** : ajoute les recettes et ingrédients importés à ceux déjà
-    présents (une recette en double est renommée "(importé)" pour éviter
-    d'écraser la vôtre) ;
+  - **Fusionner** : ajoute les recettes/photos importées à celles déjà
+    présentes (une recette en double est renommée "(importé)" pour éviter
+    d'écraser la vôtre), et complète le reste (garde-manger, menus, listes
+    de courses enregistrées, historique de planning...) sans rien
+    supprimer — en cas de doublon sur un élément nommé (un menu, une liste
+    de courses...), la version importée remplace l'ancienne ;
   - **Remplacer** : efface les données actuelles et les remplace entièrement
-    par celles du fichier importé.
+    par celles du fichier importé, y compris les réglages et le planning
+    actuellement en cours.
 
 **🗄️ Sauvegardes automatiques** (dans le même écran, plus bas)
-L'application crée automatiquement une sauvegarde complète (recettes,
-ingrédients, photos) au démarrage, au maximum une fois toutes les 24 heures,
-sans rien vous demander. Les 10 sauvegardes les plus récentes sont
+L'application crée automatiquement une sauvegarde complète (mêmes données
+que l'export manuel ci-dessus) au démarrage, au maximum une fois toutes les
+24 heures, sans rien vous demander. Les 10 sauvegardes les plus récentes sont
 conservées (les plus anciennes sont supprimées automatiquement) dans le
 dossier `backups/`, sous le nom `sauvegarde_auto_mesrecettes_AAAA-MM-JJ_HHMMSS.zip`
 — ce préfixe distinctif évite toute confusion avec les fichiers de
@@ -712,14 +975,57 @@ genre de choses qu'on a presque toujours dans un placard ou un frigo.
 Retirez-en si certains ne s'appliquent pas chez vous (double-clic ou
 "🗑 Retirer"). À gauche, recherchez et ajoutez (double-clic ou bouton "➕
 Ajouter →") les autres ingrédients que vous possédez ; ils passent dans la
-colonne de droite "Ce que j'ai". Une fois votre sélection faite, cliquez sur
+colonne de droite "Ce que j'ai". Le bouton "📦 Charger depuis mon
+garde-manger" ajoute d'un coup tous les ingrédients que vous avez déclarés
+dans "📦 Mon garde-manger" (voir ci-dessous), pour ne pas avoir à tout
+retaper. Une fois votre sélection faite, cliquez sur
 "🔍 Voir les recettes réalisables" :
-- les recettes **✅ réalisables** (tous les ingrédients sont cochés) ;
-- les recettes **🟡 presque réalisables** (il ne manque qu'1 à 3
-  ingrédients, listés) apparaissent ensuite.
+- les recettes **✅ réalisables** (tous les ingrédients sont cochés) ; si
+  vous tenez un garde-manger avec des quantités, un avertissement
+  "⚠️ quantité insuffisante" s'affiche à côté du nom si vous n'en avez pas
+  assez d'un ou plusieurs ingrédients pour le nombre de personnes par défaut
+  de la recette (ex. la recette est présente dans votre placard, mais pas en
+  quantité suffisante) ;
+- les recettes **🔄 réalisables en utilisant un substitut** : il manque 1 à
+  3 ingrédients, mais chacun a un substitut connu déjà présent dans "Ce que
+  j'ai" (voir "🔄 Gérer les substitutions" plus bas) — le détail affiché
+  indique quel substitut remplace quel ingrédient manquant ;
+- les recettes **🟡 presque réalisables** (il manque 1 à 3 ingrédients sans
+  substitut disponible, listés) apparaissent ensuite.
 Sélectionnez une recette dans les résultats puis "📖 Consulter la recette
 sélectionnée" (ou double-cliquez dessus) pour l'ouvrir directement dans
 "Voir une recette précise".
+
+**📦 Mon garde-manger**
+Indiquez ici ce que vous avez chez vous **avec une quantité et une unité**
+(contrairement à "Que puis-je cuisiner ?" qui ne fait que cocher une
+présence). Tapez les premières lettres d'un ingrédient pour filtrer la
+liste qui apparaît sous le champ (comme partout ailleurs dans
+l'application) — s'il n'existe pas encore dans votre liste d'ingrédients,
+créez-le d'abord avec "🥕 Nouvel ingrédient". Choisissez une quantité, une
+unité (Gr, cl, pièce, cuillère à soupe/café, ou une unité libre comme
+boîte/paquet) et, si vous le souhaitez, un **"Seuil d'alerte"** (laissez
+vide pour ne jamais être alerté), puis **cliquez sur "💾 Enregistrer" pour
+valider** l'ajout.
+
+Pour **modifier** un article déjà présent, **cliquez une fois dessus** dans
+la liste : cela **charge ses valeurs actuelles dans les champs ci-dessus,
+sans encore rien enregistrer** — changez la quantité, l'unité ou le seuil
+souhaités, puis **cliquez de nouveau sur "💾 Enregistrer" pour confirmer le
+changement** (c'est une erreur fréquente d'oublier cette dernière étape en
+pensant que la modification est prise en compte automatiquement). "🗑
+Retirer du garde-manger" supprime l'article sélectionné (un "⚠️" apparaît
+devant tout article passé sous son seuil dans la liste). Ce garde-manger
+sert à trois choses : détecter les quantités insuffisantes dans "Que
+puis-je cuisiner ?" (voir ci-dessus), proposer un **décompte automatique**
+après avoir cuisiné une recette (bouton "🍳 J'ai cuisiné ça !" dans "Voir
+une recette précise" ou en "Mode cuisine") — la quantité utilisée est alors
+soustraite de votre stock, sans jamais descendre sous zéro, et sans jamais
+décompter un ingrédient dont l'unité ne peut pas être comparée de façon
+fiable à celle de la recette (par exemple des "pièces" contre des grammes)
+— et signaler sur la page d'accueil les articles presque épuisés (voir "📦
+Rappel garde-manger" plus haut, mis à jour dès que vous fermez cette
+fenêtre, sans avoir besoin de relancer l'application).
 
 **📅 Planning de la semaine**
 La fenêtre se présente comme une **vraie grille calendrier** : les 7 jours de
@@ -736,13 +1042,37 @@ suivants. La grille défile horizontalement et verticalement si la fenêtre
 est trop petite pour tout afficher.
 
 "💾 Enregistrer le planning" sauvegarde vos choix pour la prochaine fois que
-vous ouvrez cette fenêtre. "🗑 Tout effacer" vide le planning. "📆 Exporter
-vers un calendrier (.ics)" enregistre un fichier `.ics` que vous pouvez
-importer dans Google Agenda, Outlook ou Calendrier (Apple) : chaque repas
-prévu (petit-déjeuner, déjeuner, dîner) devient un évènement qui **se répète
-automatiquement chaque semaine** au même jour et à la même heure — le
-déjeuner et le dîner regroupent en un seul évènement l'entrée, le plat et le
-dessert prévus. Une fois vos repas de la semaine choisis :
+vous ouvrez cette fenêtre — et archive aussi automatiquement un instantané
+de la semaine dans l'historique (voir ci-dessous). "🗑 Tout effacer" vide le
+planning. "📆 Exporter vers un calendrier (.ics)" enregistre un fichier
+`.ics` que vous pouvez importer dans Google Agenda, Outlook ou Calendrier
+(Apple) : chaque repas prévu (petit-déjeuner, déjeuner, dîner) devient un
+évènement qui **se répète automatiquement chaque semaine** au même jour et
+à la même heure — le déjeuner et le dîner regroupent en un seul évènement
+l'entrée, le plat et le dessert prévus.
+
+**🕘 Historique des semaines passées**
+Chaque fois que vous cliquez sur "💾 Enregistrer le planning", un
+instantané de la semaine est automatiquement archivé (jusqu'à 26 semaines,
+environ 6 mois ; ré-enregistrer plusieurs fois dans la même semaine
+calendaire met simplement à jour son entrée, sans créer de doublon). "🕘
+Historique des semaines passées" ouvre la liste de ces semaines archivées :
+sélectionnez-en une pour voir le détail (jour par jour, créneau par
+créneau), "♻️ Recharger dans le planning actuel" pour la reprendre comme
+base d'une nouvelle semaine (pensez à enregistrer le planning en cours
+avant si vous voulez le garder), ou "🗑 Supprimer cette semaine" pour
+retirer une archive.
+
+**📋 Modèles de semaine**
+Pour une semaine type que vous réutilisez souvent ("Semaine légère",
+"Semaine végétarienne"...), "📋 Modèles de semaine" permet d'enregistrer le
+planning actuellement affiché sous un nom de votre choix, puis de
+l'appliquer d'un clic à une autre semaine plus tard (double-clic sur un
+modèle dans la liste, ou "📋 Appliquer ce modèle") — bien plus rapide que
+de tout ressaisir à chaque fois. "🗑 Supprimer ce modèle" retire
+définitivement un modèle enregistré.
+
+Une fois vos repas de la semaine choisis :
 - "Calculer la liste de courses de la semaine" additionne les ingrédients
   nécessaires pour tous les créneaux planifiés (tous jours et repas
   confondus), regroupés par rayon ;
@@ -780,7 +1110,11 @@ utilisées, deux sections "recettes oubliées" pour redécouvrir votre livre
 - **🥗 Calories moyennes par personne**, calculées sur les recettes dont les
   ingrédients sont reconnus dans la base nutritionnelle ;
 - **📈 un graphique** du nombre de recettes cuisinées par mois, sur les 12
-  derniers mois, pour visualiser vos habitudes de cuisine dans le temps.
+  derniers mois, pour visualiser vos habitudes de cuisine dans le temps ;
+- **🗓️ un calendrier visuel** (façon "contributions" GitHub) des jours où
+  vous avez cuisiné au moins une recette, sur les 12 derniers mois : plus
+  une case est foncée, plus vous avez cuisiné ce jour-là (défilement
+  horizontal si besoin, ouvert d'emblée sur les semaines les plus récentes).
 
 **📖 Exporter le livre de recettes**
 Réunit plusieurs recettes en **un seul PDF**, façon vrai livre de cuisine.
@@ -810,3 +1144,38 @@ projet — ou utilisez simplement l'export en .zip qui regroupe tout.
 > l'impression depuis là. Ce n'est qu'en cas d'échec total que l'application
 > vous indique simplement le chemin du PDF généré pour l'ouvrir vous-même.
 
+## 4. Transformer l'application en vrai fichier .exe Windows
+
+Le plus simple est d'utiliser le script `Construire_le_exe.bat` fourni (voir
+`DEMARRAGE_RAPIDE.md`) : il fait tout automatiquement, y compris copier
+`ingredients_par_defaut.json` et tous les autres fichiers de données et de
+traduction au bon endroit. Si vous préférez le faire à la main, sur un PC
+Windows, dans le dossier du projet :
+
+```
+pip install pyinstaller pillow reportlab openpyxl qrcode pytesseract pyttsx3
+pyinstaller --onefile --windowed --name "MesRecettes" main.py
+```
+
+Le fichier `MesRecettes.exe` apparaît dans le dossier `dist/`. **Copiez dans
+ce même dossier `dist/`, à côté du `.exe`, tous les fichiers listés dans
+l'avertissement en haut de ce document** (`ingredients_par_defaut.json`,
+`valeurs_nutritionnelles.json`, `ingredient_allergenes.json`,
+`ingredient_substitutions.json`, `ingredient_translations_en.json`,
+`ingredient_translations_es.json`, `ingredient_translations_de.json`,
+`ingredient_substitutions_en.json`, `ingredient_substitutions_es.json`,
+`ingredient_substitutions_de.json`, `flag_fr.png`, `flag_uk.png`,
+`flag_es.png`, `flag_de.png`) — sans le premier d'entre eux juste à côté,
+la liste des ~1000 ingrédients courants ne pourra pas se charger ; les
+autres manquants se traduisent simplement par une fonctionnalité en
+moins (pas de plantage).
+Déplacez ensuite le dossier `dist/` entier où vous voulez (Bureau, clé USB,
+autre PC...) ; l'application créera automatiquement à côté du `.exe`, au
+même endroit, `recipes.json`, `ingredients.json`, `images/` et les autres
+fichiers de données au fur et à mesure de son utilisation.
+
+## 5. Idées d'amélioration possibles
+- Multi-profils (plusieurs membres du foyer, chacun avec ses favoris/notes)
+- Verrouillage de l'application par mot de passe
+
+N'hésitez pas à demander si vous voulez l'une de ces améliorations !

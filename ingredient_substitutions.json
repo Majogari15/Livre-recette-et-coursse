@@ -1,0 +1,276 @@
+{
+  "beurre": [
+    {
+      "nom": "Margarine",
+      "note": "Même quantité, résultat très proche."
+    },
+    {
+      "nom": "Huile végétale",
+      "note": "Réduire la quantité d'environ 25 %."
+    },
+    {
+      "nom": "Compote de pommes",
+      "note": "Dans les gâteaux, pour une version plus légère."
+    }
+  ],
+  "oeufs": [
+    {
+      "nom": "Compote de pommes",
+      "note": "Environ 60 g de compote par œuf, dans les gâteaux."
+    },
+    {
+      "nom": "Graine de lin",
+      "note": "1 c. à soupe moulue + 3 c. à soupe d'eau par œuf, à laisser gonfler 5 min."
+    }
+  ],
+  "lait": [
+    {
+      "nom": "Lait d'amande",
+      "note": "Goût plus neutre, un peu plus liquide."
+    },
+    {
+      "nom": "Lait de soja",
+      "note": "Bon substitut pour la cuisson comme pour boire."
+    },
+    {
+      "nom": "Lait d'avoine",
+      "note": "Légèrement sucré naturellement."
+    }
+  ],
+  "crème fraîche épaisse": [
+    {
+      "nom": "Yaourt grec",
+      "note": "Plus léger, moins riche en matière grasse."
+    },
+    {
+      "nom": "Crème de coco",
+      "note": "Pour une version sans lactose, apporte un léger goût de coco."
+    }
+  ],
+  "farine": [
+    {
+      "nom": "Farine de riz",
+      "note": "Pour une version sans gluten."
+    },
+    {
+      "nom": "Maïzena",
+      "note": "Pour épaissir une sauce ; ne remplace pas la farine pour faire lever un gâteau."
+    },
+    {
+      "nom": "Farine d'amande",
+      "note": "Change la texture et le goût, plus dense et plus riche."
+    }
+  ],
+  "sucre": [
+    {
+      "nom": "Miel",
+      "note": "Réduire un peu la quantité de liquide de la recette (le miel est humide)."
+    },
+    {
+      "nom": "Sirop d'érable",
+      "note": "Goût plus prononcé, réduire légèrement le liquide de la recette."
+    },
+    {
+      "nom": "Cassonade",
+      "note": "Goût plus caramélisé, même quantité."
+    }
+  ],
+  "levure chimique": [
+    {
+      "nom": "Bicarbonate de soude",
+      "note": "Associer à un ingrédient acide (vinaigre, jus de citron) pour qu'il agisse."
+    }
+  ],
+  "vin blanc": [
+    {
+      "nom": "Bouillon de légumes",
+      "note": "Ajouter un peu de jus de citron pour retrouver l'acidité du vin."
+    }
+  ],
+  "vin rouge": [
+    {
+      "nom": "Bouillon de boeuf",
+      "note": "Ajouter un peu de vinaigre balsamique pour l'acidité et la couleur."
+    }
+  ],
+  "huile d'olive": [
+    {
+      "nom": "Huile de tournesol",
+      "note": "Goût plus neutre."
+    },
+    {
+      "nom": "Huile de colza",
+      "note": "Bon apport en oméga-3, goût neutre."
+    }
+  ],
+  "yaourt nature": [
+    {
+      "nom": "Fromage blanc",
+      "note": "Un peu plus dense, légèrement moins acide."
+    },
+    {
+      "nom": "Crème fraîche épaisse allégée",
+      "note": "Plus riche, à utiliser en quantité un peu réduite."
+    }
+  ],
+  "parmesan": [
+    {
+      "nom": "Pecorino",
+      "note": "Goût plus salé et plus prononcé."
+    },
+    {
+      "nom": "Levure maltée",
+      "note": "Pour une version végétalienne, apporte un goût umami similaire."
+    }
+  ],
+  "chapelure": [
+    {
+      "nom": "Flocons d'avoine",
+      "note": "À mixer grossièrement avant usage."
+    },
+    {
+      "nom": "Biscotte",
+      "note": "À émietter finement."
+    }
+  ],
+  "moutarde": [
+    {
+      "nom": "Raifort",
+      "note": "Plus piquant, à doser avec prudence."
+    },
+    {
+      "nom": "Curcuma",
+      "note": "Associer à un peu de vinaigre pour retrouver l'acidité."
+    }
+  ],
+  "ail": [
+    {
+      "nom": "Ail en poudre",
+      "note": "Environ 1/8 de c. à café par gousse d'ail frais."
+    },
+    {
+      "nom": "Échalote",
+      "note": "Goût plus doux et plus sucré."
+    }
+  ],
+  "oignon": [
+    {
+      "nom": "Échalote",
+      "note": "Goût plus doux, cuit plus vite."
+    },
+    {
+      "nom": "Poireau",
+      "note": "Utiliser le blanc, goût plus délicat."
+    }
+  ],
+  "citron": [
+    {
+      "nom": "Vinaigre blanc",
+      "note": "Pour l'acidité seulement, sans le goût d'agrume."
+    },
+    {
+      "nom": "Citron vert",
+      "note": "Goût un peu plus vif."
+    }
+  ],
+  "vinaigre balsamique": [
+    {
+      "nom": "Vinaigre de vin rouge",
+      "note": "Ajouter une pincée de sucre pour retrouver le côté légèrement sucré."
+    }
+  ],
+  "cube de bouillon": [
+    {
+      "nom": "Bouillon de légumes déshydraté",
+      "note": "Même usage, souvent moins salé."
+    },
+    {
+      "nom": "Sauce soja",
+      "note": "Diluée dans l'eau, apporte du goût salé et umami."
+    }
+  ],
+  "crème liquide entière": [
+    {
+      "nom": "Lait concentré non sucré",
+      "note": "Un peu moins riche, mais une texture proche."
+    },
+    {
+      "nom": "Crème de coco",
+      "note": "Pour une version sans lactose."
+    }
+  ],
+  "mascarpone": [
+    {
+      "nom": "Fromage frais",
+      "note": "Mélanger avec un peu de crème fraîche épaisse pour la richesse."
+    }
+  ],
+  "chocolat noir": [
+    {
+      "nom": "Cacao en poudre",
+      "note": "Mélanger avec du beurre et du sucre pour retrouver une texture proche."
+    }
+  ],
+  "amandes": [
+    {
+      "nom": "Noisette",
+      "note": "Goût plus prononcé."
+    },
+    {
+      "nom": "Noix de cajou",
+      "note": "Goût plus doux et plus crémeux."
+    }
+  ],
+  "riz": [
+    {
+      "nom": "Quinoa",
+      "note": "Plus riche en protéines, texture légèrement différente."
+    },
+    {
+      "nom": "Boulgour",
+      "note": "Temps de cuisson plus court."
+    }
+  ],
+  "pâtes": [
+    {
+      "nom": "Riz",
+      "note": "Pour une version sans gluten."
+    },
+    {
+      "nom": "Nouilles de riz",
+      "note": "Pour une version sans gluten, cuisson plus rapide."
+    }
+  ],
+  "sucre vanillé": [
+    {
+      "nom": "Extrait de vanille",
+      "note": "Quelques gouttes suffisent, à ajouter au sucre normal."
+    }
+  ],
+  "miel": [
+    {
+      "nom": "Sirop d'érable",
+      "note": "Goût différent mais texture proche."
+    },
+    {
+      "nom": "Sucre",
+      "note": "Ajouter un peu de liquide en plus pour compenser (le miel est humide)."
+    }
+  ],
+  "fromage blanc": [
+    {
+      "nom": "Yaourt nature",
+      "note": "Un peu plus liquide."
+    }
+  ],
+  "sauce soja": [
+    {
+      "nom": "Tamari",
+      "note": "Pour une version sans gluten, goût très proche."
+    },
+    {
+      "nom": "Sel",
+      "note": "Dilué dans un peu d'eau ; le goût umami sera moins présent."
+    }
+  ]
+}

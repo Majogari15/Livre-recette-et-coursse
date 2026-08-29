@@ -1,0 +1,13 @@
+# Normalise automatiquement les fins de ligne pour tous les fichiers texte,
+# sans avertissement, quelle que soit la plateforme utilisée pour cloner ou
+# modifier le dépôt.
+* text=auto
+
+# Les fichiers suivants doivent explicitement rester en CRLF (format
+# Windows), car ce sont des scripts Windows.
+*.bat text eol=crlf
+
+# Les icônes de drapeaux sont des images binaires : à déclarer
+# explicitement pour éviter tout risque, même minime, que la
+# normalisation des fins de ligne ci-dessus les altère.
+*.png binary

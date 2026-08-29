@@ -1,0 +1,114 @@
+{
+  "beurre": [
+    {"nom": "Margarine", "note": "Gleiche Menge, sehr ähnliches Ergebnis."},
+    {"nom": "Pflanzenöl", "note": "Menge um etwa 25% reduzieren."},
+    {"nom": "Apfelmus", "note": "In Kuchen, für eine leichtere Version."}
+  ],
+  "oeufs": [
+    {"nom": "Apfelmus", "note": "Etwa 60 g Apfelmus pro Ei, in Kuchen."},
+    {"nom": "Gemahlener Leinsamen", "note": "1 EL gemahlen + 3 EL Wasser pro Ei, 5 Min. quellen lassen."}
+  ],
+  "lait": [
+    {"nom": "Mandelmilch", "note": "Neutralerer Geschmack, etwas flüssiger."},
+    {"nom": "Sojamilch", "note": "Guter Ersatz sowohl zum Kochen als auch zum Trinken."},
+    {"nom": "Hafermilch", "note": "Von Natur aus leicht süß."}
+  ],
+  "crème fraîche épaisse": [
+    {"nom": "Griechischer Joghurt", "note": "Leichter, weniger fetthaltig."},
+    {"nom": "Kokoscreme", "note": "Für eine laktosefreie Version, bringt einen leichten Kokosgeschmack."}
+  ],
+  "farine": [
+    {"nom": "Reismehl", "note": "Für eine glutenfreie Version."},
+    {"nom": "Speisestärke", "note": "Zum Andicken einer Sauce; ersetzt nicht das Mehl, um einen Kuchen aufgehen zu lassen."},
+    {"nom": "Mandelmehl", "note": "Verändert Textur und Geschmack, dichter und reichhaltiger."}
+  ],
+  "sucre": [
+    {"nom": "Honig", "note": "Die Flüssigkeitsmenge im Rezept etwas reduzieren (Honig ist feucht)."},
+    {"nom": "Ahornsirup", "note": "Ausgeprägterer Geschmack, die Flüssigkeit im Rezept leicht reduzieren."},
+    {"nom": "Brauner Zucker", "note": "Karamelligerer Geschmack, gleiche Menge."}
+  ],
+  "levure chimique": [
+    {"nom": "Natron", "note": "Mit einer säurehaltigen Zutat (Essig, Zitronensaft) kombinieren, damit es wirkt."}
+  ],
+  "vin blanc": [
+    {"nom": "Gemüsebrühe", "note": "Etwas Zitronensaft hinzufügen, um die Säure des Weins wiederherzustellen."}
+  ],
+  "vin rouge": [
+    {"nom": "Rinderbrühe", "note": "Etwas Balsamico-Essig für die Säure und die Farbe hinzufügen."}
+  ],
+  "huile d'olive": [
+    {"nom": "Sonnenblumenöl", "note": "Neutralerer Geschmack."},
+    {"nom": "Rapsöl", "note": "Guter Omega-3-Gehalt, neutraler Geschmack."}
+  ],
+  "yaourt nature": [
+    {"nom": "Fromage blanc", "note": "Etwas dichter, leicht weniger säuerlich."},
+    {"nom": "Leichte dicke Crème fraîche", "note": "Reichhaltiger, in etwas reduzierter Menge verwenden."}
+  ],
+  "parmesan": [
+    {"nom": "Pecorino", "note": "Salzigerer und ausgeprägterer Geschmack."},
+    {"nom": "Nährhefe", "note": "Für eine vegane Version, bringt einen ähnlichen Umami-Geschmack."}
+  ],
+  "chapelure": [
+    {"nom": "Haferflocken", "note": "Vor Gebrauch grob mixen."},
+    {"nom": "Zwieback", "note": "Fein zerbröseln."}
+  ],
+  "moutarde": [
+    {"nom": "Meerrettich", "note": "Schärfer, vorsichtig dosieren."},
+    {"nom": "Kurkuma", "note": "Mit etwas Essig kombinieren, um die Säure wiederherzustellen."}
+  ],
+  "ail": [
+    {"nom": "Knoblauchpulver", "note": "Etwa 1/8 Teelöffel pro frischer Knoblauchzehe."},
+    {"nom": "Schalotte", "note": "Milderer und süßerer Geschmack."}
+  ],
+  "oignon": [
+    {"nom": "Schalotte", "note": "Milderer Geschmack, gart schneller."},
+    {"nom": "Lauch", "note": "Das Weiße verwenden, feinerer Geschmack."}
+  ],
+  "citron": [
+    {"nom": "Weißer Essig", "note": "Nur für die Säure, ohne den Zitrusgeschmack."},
+    {"nom": "Limette", "note": "Etwas kräftigerer Geschmack."}
+  ],
+  "vinaigre balsamique": [
+    {"nom": "Rotweinessig", "note": "Eine Prise Zucker hinzufügen, um die leicht süße Seite wiederherzustellen."}
+  ],
+  "cube de bouillon": [
+    {"nom": "Getrocknete Gemüsebrühe", "note": "Gleiche Verwendung, oft weniger salzig."},
+    {"nom": "Sojasauce", "note": "In Wasser verdünnt, bringt salzigen und umami Geschmack."}
+  ],
+  "crème liquide entière": [
+    {"nom": "Ungesüßte Kondensmilch", "note": "Etwas weniger reichhaltig, aber eine ähnliche Textur."},
+    {"nom": "Kokoscreme", "note": "Für eine laktosefreie Version."}
+  ],
+  "mascarpone": [
+    {"nom": "Frischkäse", "note": "Mit etwas dicker Crème fraîche für die Reichhaltigkeit mischen."}
+  ],
+  "chocolat noir": [
+    {"nom": "Kakaopulver", "note": "Mit Butter und Zucker mischen, um eine ähnliche Textur wiederherzustellen."}
+  ],
+  "amandes": [
+    {"nom": "Haselnuss", "note": "Ausgeprägterer Geschmack."},
+    {"nom": "Cashewnuss", "note": "Milderer und cremigerer Geschmack."}
+  ],
+  "riz": [
+    {"nom": "Quinoa", "note": "Proteinreicher, leicht andere Textur."},
+    {"nom": "Bulgur", "note": "Kürzere Kochzeit."}
+  ],
+  "pâtes": [
+    {"nom": "Reis", "note": "Für eine glutenfreie Version."},
+    {"nom": "Reisnudeln", "note": "Für eine glutenfreie Version, schnellere Zubereitung."}
+  ],
+  "sucre vanillé": [
+    {"nom": "Vanilleextrakt", "note": "Ein paar Tropfen reichen, zum normalen Zucker hinzufügen."}
+  ],
+  "miel": [
+    {"nom": "Ahornsirup", "note": "Anderer Geschmack, aber ähnliche Textur."},
+    {"nom": "Zucker", "note": "Etwas mehr Flüssigkeit hinzufügen, um auszugleichen (Honig ist feucht)."}
+  ],
+  "fromage blanc": [
+    {"nom": "Naturjoghurt", "note": "Etwas flüssiger."}
+  ],
+  "sauce soja": [
+    {"nom": "Tamari", "note": "Für eine glutenfreie Version, sehr ähnlicher Geschmack."},
+    {"nom": "Salz", "note": "In etwas Wasser verdünnt; der Umami-Geschmack wird weniger präsent sein."}
+  ]
+}

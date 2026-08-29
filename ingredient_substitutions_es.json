@@ -1,0 +1,114 @@
+{
+  "beurre": [
+    {"nom": "Margarina", "note": "Misma cantidad, resultado muy similar."},
+    {"nom": "Aceite vegetal", "note": "Reducir la cantidad en un 25% aproximadamente."},
+    {"nom": "Compota de manzana", "note": "En pasteles, para una versión más ligera."}
+  ],
+  "oeufs": [
+    {"nom": "Compota de manzana", "note": "Unos 60 g de compota por huevo, en pasteles."},
+    {"nom": "Semilla de lino molida", "note": "1 cucharada molida + 3 cucharadas de agua por huevo, dejar reposar 5 min para que espese."}
+  ],
+  "lait": [
+    {"nom": "Leche de almendra", "note": "Sabor más neutro, un poco más líquida."},
+    {"nom": "Leche de soja", "note": "Buen sustituto tanto para cocinar como para beber."},
+    {"nom": "Leche de avena", "note": "Ligeramente dulce de forma natural."}
+  ],
+  "crème fraîche épaisse": [
+    {"nom": "Yogur griego", "note": "Más ligero, menos rico en materia grasa."},
+    {"nom": "Crema de coco", "note": "Para una versión sin lactosa, aporta un ligero sabor a coco."}
+  ],
+  "farine": [
+    {"nom": "Harina de arroz", "note": "Para una versión sin gluten."},
+    {"nom": "Maicena", "note": "Para espesar una salsa; no sustituye a la harina para hacer subir un pastel."},
+    {"nom": "Harina de almendra", "note": "Cambia la textura y el sabor, más densa y más rica."}
+  ],
+  "sucre": [
+    {"nom": "Miel", "note": "Reducir un poco la cantidad de líquido de la receta (la miel es húmeda)."},
+    {"nom": "Sirope de arce", "note": "Sabor más pronunciado, reducir ligeramente el líquido de la receta."},
+    {"nom": "Azúcar moreno", "note": "Sabor más caramelizado, misma cantidad."}
+  ],
+  "levure chimique": [
+    {"nom": "Bicarbonato de sodio", "note": "Combinar con un ingrediente ácido (vinagre, zumo de limón) para que actúe."}
+  ],
+  "vin blanc": [
+    {"nom": "Caldo de verduras", "note": "Añadir un poco de zumo de limón para recuperar la acidez del vino."}
+  ],
+  "vin rouge": [
+    {"nom": "Caldo de ternera", "note": "Añadir un poco de vinagre balsámico para la acidez y el color."}
+  ],
+  "huile d'olive": [
+    {"nom": "Aceite de girasol", "note": "Sabor más neutro."},
+    {"nom": "Aceite de colza", "note": "Buen aporte de omega-3, sabor neutro."}
+  ],
+  "yaourt nature": [
+    {"nom": "Fromage blanc", "note": "Un poco más denso, ligeramente menos ácido."},
+    {"nom": "Nata espesa light", "note": "Más rico, usar en cantidad algo reducida."}
+  ],
+  "parmesan": [
+    {"nom": "Pecorino", "note": "Sabor más salado y más pronunciado."},
+    {"nom": "Levadura nutricional", "note": "Para una versión vegana, aporta un sabor umami similar."}
+  ],
+  "chapelure": [
+    {"nom": "Copos de avena", "note": "Triturar groseramente antes de usar."},
+    {"nom": "Biscote", "note": "Desmenuzar finamente."}
+  ],
+  "moutarde": [
+    {"nom": "Rábano picante", "note": "Más picante, dosificar con cuidado."},
+    {"nom": "Cúrcuma", "note": "Combinar con un poco de vinagre para recuperar la acidez."}
+  ],
+  "ail": [
+    {"nom": "Ajo en polvo", "note": "Aproximadamente 1/8 de cucharadita por diente de ajo fresco."},
+    {"nom": "Chalota", "note": "Sabor más suave y más dulce."}
+  ],
+  "oignon": [
+    {"nom": "Chalota", "note": "Sabor más suave, se cocina más rápido."},
+    {"nom": "Puerro", "note": "Usar la parte blanca, sabor más delicado."}
+  ],
+  "citron": [
+    {"nom": "Vinagre blanco", "note": "Solo para la acidez, sin el sabor cítrico."},
+    {"nom": "Lima", "note": "Sabor un poco más intenso."}
+  ],
+  "vinaigre balsamique": [
+    {"nom": "Vinagre de vino tinto", "note": "Añadir una pizca de azúcar para recuperar el lado ligeramente dulce."}
+  ],
+  "cube de bouillon": [
+    {"nom": "Caldo de verduras deshidratado", "note": "Mismo uso, a menudo menos salado."},
+    {"nom": "Salsa de soja", "note": "Diluida en agua, aporta sabor salado y umami."}
+  ],
+  "crème liquide entière": [
+    {"nom": "Leche evaporada sin azúcar", "note": "Un poco menos rica, pero una textura similar."},
+    {"nom": "Crema de coco", "note": "Para una versión sin lactosa."}
+  ],
+  "mascarpone": [
+    {"nom": "Queso fresco", "note": "Mezclar con un poco de nata espesa para la riqueza."}
+  ],
+  "chocolat noir": [
+    {"nom": "Cacao en polvo", "note": "Mezclar con mantequilla y azúcar para recuperar una textura similar."}
+  ],
+  "amandes": [
+    {"nom": "Avellana", "note": "Sabor más pronunciado."},
+    {"nom": "Anacardo", "note": "Sabor más suave y más cremoso."}
+  ],
+  "riz": [
+    {"nom": "Quinoa", "note": "Más rica en proteínas, textura ligeramente diferente."},
+    {"nom": "Bulgur", "note": "Tiempo de cocción más corto."}
+  ],
+  "pâtes": [
+    {"nom": "Arroz", "note": "Para una versión sin gluten."},
+    {"nom": "Fideos de arroz", "note": "Para una versión sin gluten, cocción más rápida."}
+  ],
+  "sucre vanillé": [
+    {"nom": "Extracto de vainilla", "note": "Unas gotas son suficientes, añadir al azúcar normal."}
+  ],
+  "miel": [
+    {"nom": "Sirope de arce", "note": "Sabor diferente pero textura similar."},
+    {"nom": "Azúcar", "note": "Añadir un poco más de líquido para compensar (la miel es húmeda)."}
+  ],
+  "fromage blanc": [
+    {"nom": "Yogur natural", "note": "Un poco más líquido."}
+  ],
+  "sauce soja": [
+    {"nom": "Tamari", "note": "Para una versión sin gluten, sabor muy similar."},
+    {"nom": "Sal", "note": "Diluida en un poco de agua; el sabor umami será menos presente."}
+  ]
+}
